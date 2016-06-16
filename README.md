@@ -2,6 +2,7 @@
 CuCoMaG - Group Reflection Support in Role-Playing Environments
 
 This repository contains the results of the Master-Project „Supporting reflection in virtual role playing environments (serious games) “.
+
 Folders:
 
 Documents

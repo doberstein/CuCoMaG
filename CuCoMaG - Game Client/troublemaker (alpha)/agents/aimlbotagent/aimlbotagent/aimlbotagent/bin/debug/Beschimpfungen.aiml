@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+
+
+
+
+<aiml>
+<!--author: schmidt-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.1.0.17877-->
+<category>
+	<pattern>SCHIMPFWORT</pattern>
+	<template>
+		<random>
+			<li>Beleidigungen tragen nicht dazu bei, die Situation zu verbessern. Bitte erinnern Sie sich an unsere Gesprächsregeln.</li>
+			<li>Das führt uns nicht weiter. Ich möchte Sie an die Regeln erinnern, die wir ausgemacht haben.</li>
+			<li>Ich möchte Sie bitten auf derartige Äußerungen zu verzichten. Beleidigungen tragen nicht dazu bei, die Situation zu verbessern.</li>
+		</random> Also nochmal: <that /></template>
+</category>
+<category>
+	<pattern>AGGRESSION</pattern>
+	<template>
+		<random>
+			<li>Sie brauchen nicht aggressiv zu werden, wir können doch vernünftig miteinander reden. </li>
+			<li>Aggressives Verhalten und Schreien trägt nicht dazu bei, die Situation zu verbessern. </li>
+			<li>Bitte verhalten Sie sich nicht so aggressiv, erinnern Sie sich an die Gesprächsregeln. </li>
+		</random>Also nochmal: <that /></template>
+</category>
+</aiml>

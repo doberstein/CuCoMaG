@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+  <head>
+    <script type="text/javascript" src="lib/tuplespace.js"></script>
+    <script type="text/javascript" src="Game.js"></script>
+    <!--
+    <script type="text/javascript" src="Callbacks.js"></script>
+    -->
+    <script type="text/javascript" src="jquery-2.2.1.js"></script>
+    <script type="text/javascript" src="jquery-2.2.1.min.js"></script>
+    
+    <style type="text/css">
+		.a_demo_one {
+			background-color:#3bb3e0;
+			padding:12px;
+			position:relative;
+			font-family: 'Open Sans', sans-serif;
+			font-size:12px;
+			text-decoration:none;
+			color:#fff;
+			border: solid 1px #186f8f;
+			background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+			background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+			background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+			background-image: -webkit-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+			background-image: -ms-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+			background-image: -webkit-gradient(
+			linear,
+			left bottom,
+			left top,
+			color-stop(0, rgb(44,160,202)),
+			color-stop(1, rgb(62,184,229))
+			);
+			-webkit-box-shadow: inset 0px 1px 0px #7fd2f1, 0px 1px 0px #fff;
+			-moz-box-shadow: inset 0px 1px 0px #7fd2f1, 0px 1px 0px #fff;
+			box-shadow: inset 0px 1px 0px #7fd2f1, 0px 1px 0px #fff;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-o-border-radius: 5px;
+			border-radius: 5px;
+		}
+		
+	</style>
+    <title>
+      CuCoMaG
+    </title>
+  </head>
+  
+  <body style="background-image:url(img/background.png); background-attachment:scroll; background-repeat: no-repeat; background-size: 100% auto; ">
+    <!-- <button name="CONNECT" onclick="conntect()">CONNECT</button>
+    <button name="WRITE" onclick="writeTestTuple()">Write test tuple</button>
+    <button name="READ" onclick="readTestTupel()">Read one test tuple</button>
+    <button name="READALL" onclick="readAllTuples()">Read all test tuples</button>
+    <button name="EVENT" onclick="registerEvent()">Register Event</button>
+    -->
+    <div style="background-repeat:no-repeat; text-align: center; margin-left:auto; margin-right:auto; margin-top:100px;width:800px; height:600px;">
+      <p></p>
+      <img id="game" src="img/Start.png" style="display:inline; width:700px;margin-top:50px"
+      />
+	  
+      <img id="loginversuch" src="img/loginversuch.png" alt="Geben Sie Ihren Namen ein:"
+      style="display:none; margin-top:-40%; margin-left:auto; margin-right:auto;"
+      />
+      <p></p>
+      <input id="name" type="text" placeholder="Type your name here..." size="63" maxlength="30" style="display:none; margin-left:auto; margin-right:auto;margin-top:-20%; width:300px;"
+      value="" />
+      <p></p>
+      <img id="starten" src="img/starten.png" style="width: 177px; height: 48px; display: inline"
+      onclick="login();" />
+      <p></p>
+	  <!-- ContinueButton.png login2.png
+      -->
+      <img id="button" src="img/login2.png" onclick="startspiel();" style="width: 128px; height: 128px; display: none;"
+      />
+      <p></p>
+      <img id="button2" src="img/intro.png" onclick="login2();" style="width: 177px; height: 48px; display: none;"
+      />
+      <img id="introtext_button" src="img/intro.png" onclick="introtext();" style="width: 177px; height: 48px; display: none;" />
+	  <img id="button3" src="img/intro.png" onclick="login1();" style="width: 177px; height: 48px; display: none;"
+      />
+      <p></p>
+      <img id="intro1" src="img/ContinueButton.png" onclick="counter1();" style="width: 177px; height: 48px; display: none;"
+      />
+       
+      <p></p>
+      <img id="intro2" src="img/intro.png" onclick="counter2();" style="width: 220px; height: 105px; display: none;"
+      />
+      <!-- <div id="ckeckInfoArea" style="width:800px; height:600px; <input
+      id="checkinfo" type="button" value="check customer information" onClick="checkInfo();">
+      </div>
+      -->
+      <div id="chat" style="width:800px; height:600px; display:none;">
+        <p></p>
+        <label for="checkInfoInput">
+          .
+        </label>
+        <!-- <input id="chatform" type="text" onKeyPress="return submitenter(this,event)"
+        onclick="Typing();" onblur="NotTyping();" size="63" maxlength="300" style="display:
+        inherit; margin-left:215px;margin-top:0px; width:350px;" value="">
+        <input id="chatsenden"  type="button" value="senden" onClick="chattextsenden();">
+        -->
+        <table border="1" bordercolor="#999999" bgcolor="#EFF0F2">
+          <tbody>
+            <tr>
+              <td bordercolor="#999999" bgcolor="#EFF0F2">
+                <img id="Person" src="img/HerrMeier.png" style="margin-right:73%;"
+                alt="FrauSchmidt" />
+                <textarea id="chatfenster" readonly="true;" style="border:1px solid #CCCCCC; background: #FFFFFF;width:598px;height:370px;">
+                </textarea>
+              </td>
+              <td align="center" bordercolor="#999999" bgcolor="#EFF0F2" style="width:200px">
+
+                  <textarea id="hints_textarea" align="center" readonly="true" style="border:4px solid #f00; background: #EFF0F2; margin-left:10px; margin-top:20px;width:100px; height:150px; display: none;"></textarea>
+
+                <input name="text" placeholder="Type in name..." type="text" id="checkNameInput" style="display: inherit; margin-left:10px; margin-top:20px;width:140px"
+                title="Type in customer name" onkeypress="return submitenter(this,event)"
+                value="" size="63" />
+
+                <input type="button" id="checkName" style="display: inherit; margin-left:10px; margin-top:0px; width:140px"
+                onclick="checkname();" value="Check name" align="center"  />
+
+                <input id="checkOrdernumberInput" placeholder="Type in ordernumber..." type="text" title="Type in user information"
+                value="" onkeypress="return submitenter(this,event)" size="63" maxlength="300"
+                style="display: inherit; margin-left:10px; margin-top:20px;width:140px"
+                />
+                <input id="checkOrdernumber" type="button" align="center" value="Check ordernumber"
+                onclick="checkordernumber();" style="display: inherit; margin-left:10px; margin-top:0px; width:140px"
+                />
+
+                <input id="checkPostcodeInput" placeholder="Type in postcode..." type="text" title="Type in customer information"
+                value="" onkeypress="return submitenter(this,event)" size="63" maxlength="300"
+                style="display: inherit; margin-left:10px; margin-top:20px;width:140px"
+                />
+
+                <input id="checkPostcode" type="button" align="center" value="Check postcode"
+                onclick="checkpostcode();" style="display: inherit; margin-left:10px; margin-top:0px; width:140px"
+                />
+
+                <input id="checkDeliveryInput" type="text" placeholder="Type here..." title="Type in deliverynumber"
+                        value="" onkeypress="return submitenter(this,event)" size="63" maxlength="300"
+                        style="display: none; margin-left:10px; margin-top:20px;width:150px" />
+
+                <input id="checkDelivery" type="button" align="center" value="Check deliverynumber"
+                        onclick="checkdelivery();" style="display: none; margin-left:10px; margin-top:0px; width:150px" />
+
+                <textarea id="userinfo_textarea" align="center" readonly="true" style="border:4px solid #00ff21; background: #EFF0F2; margin-left:10px; margin-top:20px;width:130px; height:140px; display: none;"></textarea>
+
+                <input id="found_customerinfo" type="button" align="center" value="Send user information"
+                        onclick="foundcustomerinfo();"style="display: none; height:50px; font-size:larger; background-color:red; margin-left:10px; margin-top:5px"; />
+
+                
+
+                <div id="test110">
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td bordercolor="#999999" bgcolor="#EFF0F2">
+
+                  <select id="SentenceOpenerA1a" autocomplete="off" name="SentenceOpenerA1a" onchange="SentenceOP(SentenceOpenerA1a.options[SentenceOpenerA1a.selectedIndex].value);" multiple="multiple" size="4" style="display:none; width:598px">
+                      <option>How can I help you</option>
+                      <option value="Hi, my name is">Hi, my name is (...)</option>
+                      <option value="Hello, my name is">Hello, my name is (...)</option>
+                  </select>
+                  <select id="SentenceOpenerA11b" autocomplete="off" name="SentenceOpenerA11b" onchange="SentenceOP(SentenceOpenerA11b.options[SentenceOpenerA11b.selectedIndex].value);" multiple="multiple" size="4" style="display:none; width:598px; ">
+                      <option selected="false" value="Hi, my name is">Hi, my name is (...)</option>
+                      <option value="Hello, my name is">Hello, my name is (...)</option>
+                      <option value="My name is">My name is (...)</option>
+                  </select>
+                  <select id="SentenceOpenerA11a" autocomplete="off" name="SentenceOpenerA11a" onchange="SentenceOP(SentenceOpenerA11a.options[SentenceOpenerA11a.selectedIndex].value);" multiple="multiple" size="4" style="display:none; width:598px; ">
+                      <option value="Yes that was my second name and Jamie is my first name so how can I help you" title="Yes that was my second name and Jamie is my first name so how can I help you">Yes that was my second name and Jamie is my first name so how can I help you</option>
+                      <option>My name does not matter anyway so how can I help you</option>
+                  </select>
+                  <select id="SentenceOpenerA1b" autocomplete="off" name="SentenceOpenerA1b" onchange="SentenceOP(SentenceOpenerA1b.options[SentenceOpenerA1b.selectedIndex].value);" multiple="multiple" size="4" style="display:none; width:598px">
+                      <option>What is that</option>
+                      <option>I am so sorry about that</option>
+                      <option>I do not understand what you mean</option>
+                  </select>
+                  <select id="SentenceOpenerA1c" autocomplete="off" name="SentenceOpenerA1c" onchange="SentenceOP(SentenceOpenerA1c.options[SentenceOpenerA1c.selectedIndex].value);" multiple="multiple" size="4" style="display:none; width:598px">
+                      <option>What quality problem do you have</option>
+                      <option>Just tell me the problem</option>
+                      <option>What do you mean by that</option>
+                  </select>
+                  <select id="SentenceOpenerA1d" autocomplete="off" name="SentenceOpenerA1d" onchange="SentenceOP(SentenceOpenerA1d.options[SentenceOpenerA1d.selectedIndex].value);" multiple="multiple" size="4" style="display:none; width:598px">
+                      <option>Are the shoes OK</option>
+                      <option>I think it is not a quality problem</option>
+                      <option>It is not a big deal</option>
+                  </select>
+                  <select id="SentenceOpenerA2" autocomplete="off" name="SentenceOpenerA2" onchange="SentenceOP(SentenceOpenerA2.options[SentenceOpenerA2.selectedIndex].value);" multiple="multiple" size="4" style="display:none; width:598px; ">
+                      <option>Is that true</option>
+                      <option>Can you prove that</option>
+                      <option>Can you send me a picture of the shoes</option>
+                  </select>
+                  <select id="SentenceOpenerA2b" autocomplete="off" name="SentenceOpenerA2b" onchange="SentenceOP(SentenceOpenerA2b.options[SentenceOpenerA2b.selectedIndex].value);" multiple="multiple" size="4" style="display:none; width:598px; ">
+                      <option>OK please give me some order information</option>
+                      <option>Just give me the information</option>
+                      <option>You can not prove anything</option>
+                  </select>
+
+                  <select id="SentenceOpenerA3" autocomplete="off" name="SentenceOpenerA3" onchange="SentenceOP(SentenceOpenerA3.options[SentenceOpenerA3.selectedIndex].value);" multiple="multiple" size="4" style="display:none; width:598px; ">
+                      <option value="Please give me your">Please give me your (...)</option>
+                  </select>
+
+                  <select id="SentenceOpenerA4a" autocomplete="off" name="SentenceOpenerA4a" onchange="SentenceOP(SentenceOpenerA4a.options[SentenceOpenerA4a.selectedIndex].value);" multiple="multiple" size="4" style="display:none; width:598px ; ">
+                      <option>Now give me your ordernumber</option>
+                      <option>I also need your ordernumber</option>
+                      <option value="There are multiple customers with your name so please give me your ordernumber" title="There are multiple customers with your name so please give me your ordernumber">There are multiple customers with your name so please give me (hover for full text)</option>
+                  </select>
+                  <select id="SentenceOpenerA4b" autocomplete="off" name="SentenceOpenerA4b" onchange="SentenceOP(SentenceOpenerA4b.options[SentenceOpenerA4b.selectedIndex].value);" multiple="multiple" size="4" style="display:none; width:598px; ">
+                      <option>Now give me your ordernumber</option>
+                      <option>I also need your ordernumber</option>
+                      <option value="There are multiple customers with your postcode so please give me your ordernumber" title="There are multiple customers with your postcode so please give me your ordernumber">There are multiple customers with your postcode so please give me (hover for full text)</option>
+                  </select>
+
+                  <select id="SentenceOpenerA5" autocomplete="off" name="SentenceOpenerA5" onchange="SentenceOP(SentenceOpenerA5.options[SentenceOpenerA5.selectedIndex].value);" multiple="multiple" size="4" style="display:none; width:598px; ">
+                      <option>I just want to make sure the order information is right</option>
+                      <option>Do not be so impatient</option>
+                      <option>The website said that the package has already been delivered without any problem</option>
+                  </select>
+                  <select id="SentenceOpenerA6" autocomplete="off" name="SentenceOpenerA6" onchange="SentenceOP(SentenceOpenerA6.options[SentenceOpenerA6.selectedIndex].value);" multiple="multiple" size="4" style="display:none; width:598px; ">
+                      <option>I am sorry to hear that but there is nothing I can do since it is not a quality problem with shoes</option>
+                      <option>I am sorry to hear that and I will try to contact with my manager to see how to solve this problem</option>
+                      <option value="I am really sorry to hear that but can I offer you">I am really sorry to hear that but can I offer you (...)</option>
+                  </select>
+                  <!--<select id="SentenceOpenerA7a" autocomplete="off" name="SentenceOpenerA7a" onchange="SentenceOP(SentenceOpenerA7a.options[SentenceOpenerA7a.selectedIndex].value);" multiple="multiple" size="4" style="display:none; width:598px; ">
+                      <option>I will do that right away, sorry for your inconvenience</option>
+                      <option>I am sorry but I can not do that</option>
+                  </select>-->
+                  <!--<select id="SentenceOpenerA7b" autocomplete="off" name="SentenceOpenerA7b" onchange="SentenceOP(SentenceOpenerA7b.options[SentenceOpenerA7b.selectedIndex].value);" multiple="multiple" size="4" style="display:none; width:598px; ">
+                      <option>Ok, thank you for contacting us and goodbye</option>
+                      <option>I will arrange that</option>
+                      <option>I will try to arrange that as soon as I have the time</option>
+                  </select>-->
+                  <select id="SentenceOpenerA7c" autocomplete="off" name="SentenceOpenerA7c" onchange="SentenceOP(SentenceOpenerA7c.options[SentenceOpenerA7c.selectedIndex].value);" multiple="multiple" size="4" style="display:none; width:598px; ">
+                      <option>I will arrange that immediately</option>
+                      <option>I must talk to my manager about that</option>
+                      <option>I am sorry but I can not do that</option>
+                  </select>
+                  <select id="SentenceOpenerA7d" autocomplete="off" name="SentenceOpenerA7d" onchange="SentenceOP(SentenceOpenerA7d.options[SentenceOpenerA7d.selectedIndex].value);" multiple="multiple" size="4" style="display:none; width:598px; ">
+                      <option>I will arrange that immediately</option>
+                      <option>I will try to arrange that as soon as I have time</option>
+                      <option>Ok, thank you for contacting us and goodbye</option>
+                  </select>
+                  <select id="SentenceOpenerA7e" autocomplete="off" name="SentenceOpenerA7e" onchange="SentenceOP(SentenceOpenerA7e.options[SentenceOpenerA7e.selectedIndex].value);" multiple="multiple" size="4" style="display:none; width:598px; ">
+                      <option value="Can I offer you">Can I offer you (...)</option>
+                  </select>
+
+                <textarea name="textarea" id="chatform" style="display: inherit; margin-top: 5px; width: 537px; height: 24px;"  onkeypress="return submitenter(this,event)" placeholder="Type your message here..." value="">                
+				</textarea>
+                <input name="button2" type="button" id="chatsenden" class="a_demo_one" onclick="chattextsenden();"
+                value="send" />
+
+                <p>
+                </p>
+              </td>
+              <td align="center" bordercolor="#999999" bgcolor="#EFF0F2">
+                <img id="gamescreenend" src="img/gamebee.png" style="display: inherit; margin-left:20px; margin-top:0px;"
+                alt="Game beenden" onclick="gameover();" />
+              </td>
+            </tr>
+            <!-- <tr>
+            <td bordercolor="#EFF0F2" bgcolor="#999999">
+            <div id="smilies">
+            <img id="lachen" src="img/smilies/lachen.png" onClick="document.getElementById('chatform').value= document.getElementById('chatform').value+ ' :D';" style="display: inherit; margin-left:10px; /* margin-top:-60px; */" alt="lachen">
+            <img id="grinsen" src="img/smilies/grinsen.png" onClick="document.getElementById('chatform').value= document.getElementById('chatform').value+ ' :)';" style="display: inherit; margin-top:-25px; margin-left:35px; " alt="grinsen">
+            <img id="zwinkern" src="img/smilies/zwinkern.png" onClick="document.getElementById('chatform').value= document.getElementById('chatform').value+ ' ;)';" style="display: inherit; margin-top:-25px; margin-left:60px; " alt="zwinkern">
+            <img id="traurig" src="img/smilies/traurig.png" onClick="document.getElementById('chatform').value= document.getElementById('chatform').value+ ' :(';" style="display: inherit; margin-top:-25px; margin-left:85px; " alt="traurig">
+            <img id="albern" src="img/smilies/albern.png" onClick="document.getElementById('chatform').value= document.getElementById('chatform').value+ ' :P';" style="display: inherit; margin-top:-25px; margin-left:110px; " alt="albern">						</div>					</td>
+            <td align="center" bordercolor="#999966" bgcolor="#999999"></td>
+            </tr>
+            -->
+          </tbody>
+        </table>
+        <!--
+        <img id="Med" src="img/MediatorRedet.gif" style="display: inherit; margin-top: -200px; margin-left:-200px"
+        alt="" />
+            -->
+      </div>
+    </div>
+
+    <!-- 
+    <div style="text-align: center; margin-top:-10%;">
+      <div id="freechat" style="margin-left:500px; margin-top:-200px; display:none;">
+        <textarea id="freechatfenster" style="margin-top:-520px; margin-left:-520px; max-width:400px; max-height:300px; "
+        readonly="true;" cols="80" rows="18" value="Das Mediationsgespr&auml;ch wurde beendet.\n Sie haben nun die M&ouml;glichkeit, sich mit Ihrem Mitspieler\n &uuml;ber den Verlauf des Gespr&auml;chs auszutauschen.\n\n">
+        </textarea>
+        <img id="FrSchFree" src="img/FrauSchmidt.png" style="display: inherit; margin-top: -450px; margin-left:600px"
+        alt="FrauSchmidt" />
+        <input id="freechatform" name="name" onkeypress="return freesubmitenter(this,event)"
+        type="text" size="63" maxlength="300" style=" margin-left:-460px;margin-top:10px; width:400px;"
+        value="" />
+        <input id="freechatsenden" name="name" type="button" value="senden" onclick="freechattext();"
+        />
+        <div id="smilies2" style="margin-left:20%; margin-top:10px; display:none;">
+          <img id="lachen2" src="img/smilies/lachen.png" style="display: inherit; "
+          onclick="document.getElementById('freechatform').value= document.getElementById('freechatform').value+ ' :D';"
+          alt="lachen" />
+          <img id="grinsen2" src="img/smilies/grinsen.png" style="display: inherit; margin-top:-25px; margin-left:25px; "
+          onclick="document.getElementById('freechatform').value= document.getElementById('freechatform').value+ ' :)';"
+          alt="grinsen" />
+          <img id="zwinkern2" src="img/smilies/zwinkern.png" style="display: inherit; margin-top:-25px; margin-left:50px; "
+          onclick="document.getElementById('freechatform').value= document.getElementById('freechatform').value+ ' ;)';"
+          alt="zwinkern" />
+          <img id="traurig2" src="img/smilies/traurig.png" style="display: inherit; margin-top:-25px; margin-left:75px; "
+          onclick="document.getElementById('freechatform').value= document.getElementById('freechatform').value+ ' :(';"
+          alt="traurig" />
+          <img id="albern2" src="img/smilies/albern.png" style="display: inherit; margin-top:-25px; margin-left:100px; "
+          onclick="document.getElementById('freechatform').value= document.getElementById('freechatform').value+ ' :P';"
+          alt="albern" />
+        </div>
+        <img id="freec" src="img/freechat.png" style="display: none; margin-top:-655px; margin-left:-1000px;"
+        alt="FreeChat" />
+        <img id="freeend" src="img/freeend.png" style="display: none; margin-top:550px; margin-left:700px;"
+        alt="FreeChat beenden" onclick="endFreechat();" />
+      </div>
+    </div>
+    <div id="feedback" style="margin-left:35%;margin-top:-36%;display: none;">
+      <img id="feed" src="img/feedback.png" style="margin-top:0px; margin-left:10%;"
+      alt="Feedback" />
+      <p>
+      </p>
+      <p>
+      </p>
+      <img id="feedbacka" src="img/aggro.png" style="margin-top:0px; margin-left:-70px;"
+      alt="Aggressivit&auml;t" />
+      <textarea style="margin-top:15px;" readonly="true;" cols="60" rows="7"
+      id="feedbackatext">
+      </textarea>
+      <p>
+      </p>
+      <p>
+      </p>
+      <img id="feedbacks" src="img/sachlich.png" style="margin-top:20px;margin-left:-70px;"
+      alt="Sachlichkeit" />
+      <textarea style="margin-top:15px;" readonly="true;" cols="60" rows="7"
+      id="feedbackstext">
+      </textarea>
+      <img id="feedbacksthumb" src="img/nothumb.png" style="margin-top:0px; margin-left:5px;"
+      />
+      <p>
+      </p>
+      <p>
+      </p>
+      <img id="feedbackdi" src="img/ichdu.png" style="margin-top:20px;margin-left:-70px;"
+      alt="Vorwurf" />
+      <textarea style="margin-top:15px;" readonly="true;" cols="60" rows="7"
+      id="feedbackdtext">
+      </textarea>
+      <img id="feedbackdthumb" src="img/nothumb.png" style="margin-top:0px; margin-left:5px;"
+      />
+      <p>
+      </p>
+      <img id="feedbackbee+-" src="img/feedbackbee.png" onclick="replayscreen()"
+      style="margin-top:-20px; margin-left:660px;" alt="Feedback beenden" />
+    </div>
+    <!-- <div style="margin-left:75%; margin-top:-450px;">
+    <img id="note" src="img/notizblock.png"  style="display: none;" width="70%" height="50%" alt="Notizblock">
+    </div>
+
+    <div id="hilfe" style="margin-left:70%; margin-top:-650px; display:none;">
+      <img id="help" src="img/Hilfe.png" style="display: none;" width="25%"
+      height="15%" alt="Hilfe" onclick="hilfefenser();" />
+      <img id="helpF" src="img/FrauHelp.png" style="margin-top:-100px; margin-left:-10px; display: none;"
+      width="95%" height="65%" alt="Hilfe" onclick="schlie&szlig;ehilfefenser();"
+      />
+      <img id="helpH" src="img/HerrHelp.png" style="display: none;" width="95%"
+      height="65%" alt="Hilfe" onclick="schlie&szlig;ehilfefenser();" />
+    </div>
+    <img id="replayexp" src="img/replaystart.png" onclick="replayscreen2();"
+    style=" display:none; margin-top:-3%; margin-left:auto; margin-right:auto;"
+    />
+    <div id="replay" style="margin-left:35%;margin-top:-36%;display:none;">
+      <div id="phasen" style="margin-top:140px; margin-left:5%">
+        <img id="phase1" src="img/phase1.png" onclick="readDirectFeedback1();"
+        style="margin-top:-3%; margin-left:0px" />
+        <img id="phase2" src="img/phase2.png" onclick="readDirectFeedback2();"
+        style="margin-top:-120px; margin-left:0px;" />
+        <img id="phase3" src="img/phase3.png" onclick="readDirectFeedback3();"
+        style="margin-top:-120px; margin-left:0px;" />
+        <img id="phase4" src="img/phase4.png" onclick="readDirectFeedback4();"
+        style="margin-top:-120px; margin-left:0px;" />
+      </div>
+      <p>
+      </p>
+      <textarea style="margin-top:-5px; margin-left:2%" readonly="true;" cols="60"
+      rows="20" id="replaytext">
+      </textarea>
+      <p>
+      </p>
+      <img id="feedback2" src="img/feedback2.png" onclick="document.getElementById('replay').style.display='none'; document.getElementById('feed').style.display='inherit'; document.getElementById('feedback').style.display='inherit';"
+      style="margin-top:0px; margin-left:-20%;" />
+      <img id="replayeend" src="img/replayeend.png" onclick="endGame()" style="margin-top:0px; margin-left:20%;"
+      />
+    </div>
+    <img id="ende" src="img/Ende.png" style="display:none; margin-top:0px; margin-left:33%;"
+    />
+    -->
+  </body>
+
+</html>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<aiml>
+<!--author: schmidt-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.1.0.17877-->
+<category>
+	<pattern>GUTE TAG ICH BIN AGGRESSION</pattern>
+	<template><srai>HALLO MEIN NAME IST AGGRESSION</srai></template>
+</category>
+<category>
+	<pattern>GUTEN TAG ICH BIN *</pattern>
+	<template><srai>HALLO MEIN NAME IST <star /></srai></template>
+</category>
+<category>
+	<pattern>GUTEN TAG ICH BIN SCHIMPFWORT</pattern>
+	<template><srai>HALLO MEIN NAME IST SCHIMPFWORT</srai></template>
+</category>
+<category>
+	<pattern>HALLO MEIN NAME IST *</pattern><that>* Willkommen</that>
+	<template><think><set name="vorgestellt">true</set><set name="aktiverSpieler">User1</set></think>Auch Ihnen herzlich willkommen. Ich werde dieses Gespräch zwischen Ihnen als Vermittler leiten, aber alle Entscheidungen treffen Sie selbst.</template>
+</category>
+<category>
+	<pattern>HALLO MEIN NAME IST *</pattern>
+	<template>
+		<random>
+			<li>Es ist schön, dass Sie hier sind, <star />.</li>
+			<li>Es freut mich, dass Sie hier sind.</li>
+			<li>Herzlich Willkommen.</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HALLO MEIN NAME IST *</pattern><that>* Sie hier sind *</that>
+	<template><think><set name="vorgestellt">true</set><set name="aktiverSpieler">User1</set></think>Auch Ihnen herzlich willkommen. Ich werde dieses Gespräch zwischen Ihnen als Vermittler leiten, aber alle Entscheidungen treffen Sie selbst.</template>
+</category>
+<category>
+	<pattern>HALLO MEIN NAME IST *</pattern><that>* Sie hier sind</that>
+	<template><think><set name="vorgestellt">true</set><set name="aktiverSpieler">User1</set></think>Auch Ihnen herzlich willkommen. Ich werde dieses Gespräch zwischen Ihnen als Vermittler leiten, aber alle Entscheidungen treffen Sie selbst.</template>
+</category>
+<category>
+	<pattern>HALLO MEIN NAME IST AGGRESSION</pattern>
+	<template>Schon gut, sie brauchen nicht aggressiv oder laut zu werden. Schön, dass Sie hier sind.</template>
+</category>
+<category>
+	<pattern>HALLO MEIN NAME IST AGGRESSION</pattern><that>* Sie hier sind *</that>
+	<template>Bitte verhalten Sie sich nicht aggressiv, wir können doch ruhig und sachlich miteinander reden. <think><set name="vorgestellt">true</set><set name="aktiverSpieler">User1</set></think>Auch Ihnen herzlich willkommen. Ich werde dieses Gespräch zwischen Ihnen als Vermittler leiten, aber alle Entscheidungen treffen Sie selbst.</template>
+</category>
+<category>
+	<pattern>HALLO MEIN NAME IST AGGRESSION</pattern><that>* Sie hier sind</that>
+	<template>Bitte verhalten Sie sich nicht aggressiv, wir können doch ruhig und sachlich miteinander reden. <think><set name="vorgestellt">true</set><set name="aktiverSpieler">User1</set></think>Auch Ihnen herzlich willkommen. Ich werde dieses Gespräch zwischen Ihnen als Vermittler leiten, aber alle Entscheidungen treffen Sie selbst.</template>
+</category>
+<category>
+	<pattern>HALLO MEIN NAME IST AGGRESSION</pattern><that>* Willkommen</that>
+	<template>Bitte verhalten Sie sich nicht aggressiv, wir können doch ruhig und sachlich miteinander reden. <think><set name="vorgestellt">true</set><set name="aktiverSpieler">User1</set></think>Auch Ihnen herzlich willkommen. Ich werde dieses Gespräch zwischen Ihnen als Vermittler leiten, aber alle Entscheidungen treffen Sie selbst.</template>
+</category>
+<category>
+	<pattern>HALLO MEIN NAME IST SCHIMPFWORT</pattern>
+	<template>Ein sehr ungewöhnlicher Name, aber gut, wie Sie meinen. Herzlich willkommen.</template>
+</category>
+<category>
+	<pattern>HALLO MEIN NAME IST SCHIMPFWORT</pattern><that>* Sie hier sind *</that>
+	<template>So wollen Sie genannt werden? Nun gut, <think><set name="vorgestellt">true</set><set name="aktiverSpieler">User1</set></think>auch Ihnen herzlich willkommen. Ich werde dieses Gespräch zwischen Ihnen als Vermittler leiten, aber alle Entscheidungen treffen Sie selbst.</template>
+</category>
+<category>
+	<pattern>HALLO MEIN NAME IST SCHIMPFWORT</pattern><that>* Sie hier sind</that>
+	<template>So wollen Sie genannt werden? Nun gut, <think><set name="vorgestellt">true</set><set name="aktiverSpieler">User1</set></think>auch Ihnen herzlich willkommen. Ich werde dieses Gespräch zwischen Ihnen als Vermittler leiten, aber alle Entscheidungen treffen Sie selbst.</template>
+</category>
+<category>
+	<pattern>HALLO MEIN NAME IST SCHIMPFWORT</pattern><that>* Willkommen</that>
+	<template>So wollen Sie genannt werden? Nun gut, <think><set name="vorgestellt">true</set><set name="aktiverSpieler">User1</set></think>auch Ihnen herzlich willkommen. Ich werde dieses Gespräch zwischen Ihnen als Vermittler leiten, aber alle Entscheidungen treffen Sie selbst.</template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM *</pattern>
+	<template><condition name="vorgestellt" value="true"><condition name="aktiverSpieler" value="User2"><condition name="zieleUser2" value="3"><think><set name="zieleUser2">4</set></think>#Praise#Das ist ja schon mal eine ganze Menge. Ich denke, das ist vorerst genug. Nachdem wir jetzt geklärt haben, was Sie sich von diesem Gespräch erhoffen, sollten wir gemeinsam festlegen, über welche Themen wir heute sprechen wollen. <think><set name="topic">Mediator_Phase2</set></think></condition><condition name="zieleUser2" value="2"><think><set name="zieleUser2">3</set></think>Gut. Können sie noch einen Grund nennen?</condition><condition name="zieleUser2" value="1"><think><set name="zieleUser2">2</set></think>In Ordnung. Haben Sie noch ein weiteres Ziel?</condition><condition name="zieleUser2" value="0"><think><set name="zieleUser2">1</set></think>Ich verstehe. Und gibt es noch weitere Gründe?</condition></condition><condition name="aktiverSpieler" value="User1">#Interruption#Bitte lassen Sie zuerst Ihren Gesprächspartner ausreden, Sie bekommen gleich noch Gelegenheit, Ihre Ziele darzustellen. Also nochmal: <that /></condition></condition><condition name="vorgestellt" value="false">#Interruption#Moment, wir wollen auch Ihrem Gesprächspartner die Möglichkeit geben, sich vorzustellen, bevor wir mit dem Gespräch beginnen. Ihnen sagte ich ja bereits 'Herzlich Willkommen'.</condition></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM * KEIN *</pattern>
+	<template><condition name="vorgestellt" value="true"><condition name="aktiverSpieler" value="User2">Sie beschreiben gerade, was Sie nicht wollen. Versuchen Sie doch mal, das Ganze positiv zu formulieren: Wie sollte die Situation stattdessen aussehen?</condition><condition name="aktiverSpieler" value="User1">#Interruption#Entschuldigung, diese Frage war nicht an Sie gerichtet, bitte lassen Sie Ihren Gesprächspartner aussprechen. Also nochmal: <that /></condition></condition><condition name="vorgestellt" value="false">#Interruption#Moment, wir wollen auch Ihrem Gesprächspartner die Möglichkeit geben, sich vorzustellen, bevor wir mit dem Gespräch beginnen. Ihnen sagte ich ja bereits 'Herzlich Willkommen'.</condition></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM * KEIN* *</pattern>
+	<template><srai>ICH BIN HEUTE GEKOMMEN UM <star /> KEIN <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM * KONFLIKT *</pattern>
+	<template><condition name="vorgestellt" value="true"><condition name="aktiverSpieler" value="User2">Erklären Sie das bitte genauer. </condition><condition name="aktiverSpieler" value="User1">#Interruption#Entschuldigung, diese Frage war nicht an Sie gerichtet, bitte lassen Sie Ihren Gesprächspartner aussprechen. Also nochmal: <that /></condition></condition><condition name="vorgestellt" value="false">#Interruption#Moment, wir wollen auch Ihrem Gesprächspartner die Möglichkeit geben, sich vorzustellen, bevor wir mit dem Gespräch beginnen. Ihnen sagte ich ja bereits 'Herzlich Willkommen'.</condition></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM * KONFLIKT* *</pattern>
+	<template><condition name="vorgestellt" value="true"><condition name="aktiverSpieler" value="User2">Erklären Sie das bitte genauer. </condition><condition name="aktiverSpieler" value="User1">#Interruption#Entschuldigung, diese Frage war nicht an Sie gerichtet, bitte lassen Sie Ihren Gesprächspartner aussprechen. Also nochmal: <that /></condition></condition><condition name="vorgestellt" value="false">#Interruption#Moment, wir wollen auch Ihrem Gesprächspartner die Möglichkeit geben, sich vorzustellen, bevor wir mit dem Gespräch beginnen. Ihnen sagte ich ja bereits 'Herzlich Willkommen'.</condition></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM * KONFLIKTE *</pattern>
+	<template><condition name="vorgestellt" value="true"><condition name="aktiverSpieler" value="User2">Erklären Sie das bitte genauer. </condition><condition name="aktiverSpieler" value="User1">#Interruption#Entschuldigung, diese Frage war nicht an Sie gerichtet, bitte lassen Sie Ihren Gesprächspartner aussprechen. Also nochmal: <that /></condition></condition><condition name="vorgestellt" value="false">#Interruption#Moment, wir wollen auch Ihrem Gesprächspartner die Möglichkeit geben, sich vorzustellen, bevor wir mit dem Gespräch beginnen. Ihnen sagte ich ja bereits 'Herzlich Willkommen'.</condition></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM * NICHT *</pattern>
+	<template><srai>ICH BIN HEUTE GEKOMMEN UM <star /> KEIN <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM * PROBLEM *</pattern>
+	<template><srai>ICH BIN HEUTE GEKOMMEN UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM * PROBLEM* *</pattern>
+	<template><srai>ICH BIN HEUTE GEKOMMEN UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM * PROBLEME *</pattern>
+	<template><srai>ICH BIN HEUTE GEKOMMEN UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM * PROBLEMS *</pattern>
+	<template><srai>ICH BIN HEUTE GEKOMMEN UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM * SITUATION *</pattern>
+	<template><srai>ICH BIN HEUTE GEKOMMEN UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM * SITUATION* *</pattern>
+	<template><srai>ICH BIN HEUTE GEKOMMEN UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM * SITUATIONEN *</pattern>
+	<template><srai>ICH BIN HEUTE GEKOMMEN UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM * STREIT *</pattern>
+	<template><srai>ICH BIN HEUTE GEKOMMEN UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM * STREIT* *</pattern>
+	<template><srai>ICH BIN HEUTE GEKOMMEN UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM * STREITE *</pattern>
+	<template><srai>ICH BIN HEUTE GEKOMMEN UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM * STREITEREI *</pattern>
+	<template><srai>ICH BIN HEUTE GEKOMMEN UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM * STREITEREIEN *</pattern>
+	<template><srai>ICH BIN HEUTE GEKOMMEN UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM * STREITIGKEIT *</pattern>
+	<template><srai>ICH BIN HEUTE GEKOMMEN UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM * STREITIGKEITEN *</pattern>
+	<template><srai>ICH BIN HEUTE GEKOMMEN UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM KEIN *</pattern>
+	<template><srai>ICH BIN HEUTE GEKOMMEN UM <star /> KEIN <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM KEIN* *</pattern>
+	<template><srai>ICH BIN HEUTE GEKOMMEN UM <star /> KEIN <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE GEKOMMEN UM NICHT *</pattern>
+	<template><srai>ICH BIN HEUTE GEKOMMEN UM <star /> KEIN <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM * </pattern>
+	<template><condition name="vorgestellt" value="true"><condition name="aktiverSpieler" value="User2">#Interruption#Bitte lassen Sie Ihren Gesprächspartner ausreden, Sie hatten bereits Gelegenheit, Ihre Ziele darzustellen. Also nochmal: <that /></condition><condition name="aktiverSpieler" value="User1"><condition name="zieleUser1" value="3"><think><set name="zieleUser1">4</set></think>#Praise#Das ist ja schon mal eine ganze Menge. Ich denke, das ist vorerst genug. Frau Schmidt, was sind Ihre Ziele?<think><set name="aktiverSpieler">User2</set></think></condition><condition name="zieleUser1" value="2"><think><set name="zieleUser1">3</set></think>Gut. Können sie noch einen Grund nennen?</condition><condition name="zieleUser1" value="1"><think><set name="zieleUser1">2</set></think>In Ordnung. Haben Sie noch ein weiteres Ziel?</condition><condition name="zieleUser1" value="0"><think><set name="zieleUser1">1</set></think>Ich verstehe. Und gibt es noch weitere Gründe?</condition></condition></condition><condition name="vorgestellt" value="false">#Interruption#Moment, wir wollen auch Ihrem Gesprächspartner die Möglichkeit geben, sich vorzustellen, bevor wir mit dem Gespräch beginnen. Ihnen sagte ich ja bereits 'Herzlich Willkommen'.</condition></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM * KEIN *</pattern>
+	<template><srai>ICH BIN HEUTE HIER UM <star /> NICHT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM * KEIN* *</pattern>
+	<template><srai>ICH BIN HEUTE HIER UM <star /> NICHT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM * KONFLIKT *</pattern>
+	<template><condition name="vorgestellt" value="true"><condition name="aktiverSpieler" value="User2">#Interruption#Entschuldigung, diese Frage war nicht an Sie gerichtet, bitte lassen Sie Ihren Gesprächspartner aussprechen. Also nochmal: <that /></condition><condition name="aktiverSpieler" value="User1">Erklären Sie das bitte genauer. </condition></condition><condition name="vorgestellt" value="false">#Interruption#Moment, wir wollen auch Ihrem Gesprächspartner die Möglichkeit geben, sich vorzustellen, bevor wir mit dem Gespräch beginnen. Ihnen sagte ich ja bereits 'Herzlich Willkommen'.</condition></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM * KONFLIKT* *</pattern>
+	<template><condition name="vorgestellt" value="true"><condition name="aktiverSpieler" value="User2">#Interruption#Entschuldigung, diese Frage war nicht an Sie gerichtet, bitte lassen Sie Ihren Gesprächspartner aussprechen. Also nochmal: <that /></condition><condition name="aktiverSpieler" value="User1">Erklären Sie das bitte genauer. </condition></condition><condition name="vorgestellt" value="false">#Interruption#Moment, wir wollen auch Ihrem Gesprächspartner die Möglichkeit geben, sich vorzustellen, bevor wir mit dem Gespräch beginnen. Ihnen sagte ich ja bereits 'Herzlich Willkommen'.</condition></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM * KONFLIKTE *</pattern>
+	<template><condition name="vorgestellt" value="true"><condition name="aktiverSpieler" value="User2">#Interruption#Entschuldigung, diese Frage war nicht an Sie gerichtet, bitte lassen Sie Ihren Gesprächspartner aussprechen. Also nochmal: <that /></condition><condition name="aktiverSpieler" value="User1">Erklären Sie das bitte genauer. </condition></condition><condition name="vorgestellt" value="false">#Interruption#Moment, wir wollen auch Ihrem Gesprächspartner die Möglichkeit geben, sich vorzustellen, bevor wir mit dem Gespräch beginnen. Ihnen sagte ich ja bereits 'Herzlich Willkommen'.</condition></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM * NICHT *</pattern>
+	<template><condition name="vorgestellt" value="true"><condition name="aktiverSpieler" value="User2">#Interruption#Entschuldigung, diese Frage war nicht an Sie gerichtet, bitte lassen Sie Ihren Gesprächspartner aussprechen. Also nochmal: <that /></condition><condition name="aktiverSpieler" value="User1">Sie beschreiben gerade, was Sie nicht wollen. Versuchen Sie doch mal, das Ganze positiv zu formulieren: Wie sollte die Situation stattdessen aussehen?</condition></condition><condition name="vorgestellt" value="false">#Interruption#Moment, wir wollen auch Ihrem Gesprächspartner die Möglichkeit geben, sich vorzustellen, bevor wir mit dem Gespräch beginnen. Ihnen sagte ich ja bereits 'Herzlich Willkommen'.</condition></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM * PROBLEM *</pattern>
+	<template><srai>ICH BIN HEUTE HIER UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM * PROBLEM* *</pattern>
+	<template><srai>ICH BIN HEUTE HIER UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM * PROBLEME *</pattern>
+	<template><srai>ICH BIN HEUTE HIER UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM * SITUATION *</pattern>
+	<template><srai>ICH BIN HEUTE HIER UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM * SITUATION* *</pattern>
+	<template><srai>ICH BIN HEUTE HIER UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM * SITUATIONEN *</pattern>
+	<template><srai>ICH BIN HEUTE HIER UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM * STREIT *</pattern>
+	<template><srai>ICH BIN HEUTE HIER UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM * STREIT* *</pattern>
+	<template><srai>ICH BIN HEUTE HIER UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM * STREITE *</pattern>
+	<template><srai>ICH BIN HEUTE HIER UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM * STREITEREI *</pattern>
+	<template><srai>ICH BIN HEUTE HIER UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM * STREITEREIEN *</pattern>
+	<template><srai>ICH BIN HEUTE HIER UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM * STREITIGKEIT *</pattern>
+	<template><srai>ICH BIN HEUTE HIER UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM * STREITIGKEITEN *</pattern>
+	<template><srai>ICH BIN HEUTE HIER UM <star /> KONFLIKT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM KEIN *</pattern>
+	<template><srai>ICH BIN HEUTE HIER UM <star /> NICHT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM KEIN* *</pattern>
+	<template><srai>ICH BIN HEUTE HIER UM <star /> NICHT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH BIN HEUTE HIER UM NICHT *</pattern>
+	<template><srai>ICH BIN HEUTE HIER UM <star /> NICHT <star /></srai></template>
+</category>
+<category>
+	<pattern>ICH VERSTEHE NICHT WAS SIE MEINEN</pattern>
+	<template><condition name="vorgestellt" value="true">Bitte versuchen Sie einfach, auf meine Frage zu antworten. Keine Angst, es gibt keine richtigen oder falschen Antworten. Also: <that /></condition><condition name="vorgestellt" value="false">Ich begrüße Sie recht herzlich, es freut mich, dass Sie hier sind, um Ihren Konflikt zu lösen.</condition></template>
+</category>
+<category>
+	<pattern>ICH VERSTEHE NICHT WAS SIE MEINEN</pattern><that>* Ziel zu formulieren</that>
+	<template>Versuchen sie zu beschreiben, was Sie sich von diesem Gespräch erhoffen. Wie soll Ihre Situation danach aussehen?</template>
+</category>
+<category>
+	<pattern>ICH VERSTEHE NICHT WAS SIE MEINEN</pattern><that>* haben Sie noch</that>
+	<template>Sie sagten doch, Sie haben noch ein weiteres Ziel. Was erhoffen Sie sich also noch von diesem Gespräch für die Zukunft?</template>
+</category>
+<category>
+	<pattern>ICH VERSTEHE NICHT WAS SIE MEINEN</pattern><that>* dieses Ziel</that>
+	<template>Sie sagten doch, Sie haben noch ein weiteres Ziel. Was erhoffen Sie sich also noch von diesem Gespräch für die Zukunft?</template>
+</category>
+<category>
+	<pattern>ICH VERSTEHE NICHT WAS SIE MEINEN</pattern><that>* die Zukunft</that>
+	<template>Sie sagten doch, Sie haben noch ein weiteres Ziel. Was erhoffen Sie sich also noch von diesem Gespräch für die Zukunft?</template>
+</category>
+<category>
+	<pattern>ICH VERSTEHE NICHT WAS SIE MEINEN</pattern><that>* stattdessen aussehen</that>
+	<template>Vermeiden Sie negative Formulierungen. Überlegen Sie lieber, wie die Situation in Zukunft idealerweise für Sie aussehen würde.</template>
+</category>
+<category>
+	<pattern>ICH VERSTEHE NICHT WAS SIE MEINEN</pattern><that>* das bitte genauer</that>
+	<template>Sie formulieren das sehr allgemein. Versuchen Sie das etwas konkreter zu formulieren.</template>
+</category>
+<category>
+	<pattern>ICH VERSTEHE NICHT WAS SIE MEINEN</pattern><that>* Ziel zu formulieren</that>
+	<template>Versuchen Sie, uns zu erklären, was Sie sich von diesem Gespräch erhoffen.</template>
+</category>
+<category>
+	<pattern>JA</pattern><that>* Grund nennen</that>
+	<template><condition name="aktiverSpieler" value="User1">#Interruption#Frau Schmidt, bitte gedulden Sie sich. Das ist Herrn Meiers Redezeit. Also nochmal: <that /></condition><condition name="aktiverSpieler" value="User2">Sie scheinen sich gut vorbereitet zu haben. Was erhoffen Sie sich also außerdem noch von unserem Gespräch heute für die Zukunft?</condition></template>
+</category>
+<category>
+	<pattern>JA</pattern>
+	<template><condition name="aktiverSpieler" value="alle">#Criticize#Was meinen Sie? Ich habe Ihnen keine Frage gestellt, die man mit Ja oder Nein beantworten kann. Ich sagte: <that /></condition><condition name="aktiverSpieler" value="User1">#Interruption#Frau Schmidt, bitte gedulden Sie sich. Das ist Herrn Meiers Redezeit. Also nochmal: <that /></condition><condition name="aktiverSpieler" value="User2"><condition name="vorgestellt" value="true">#Criticize#Was meinen Sie? Ich habe Ihnen keine Frage gestellt, die man mit Ja oder Nein beantworten kann. Ich sagte: <that /></condition><condition name="vorgestellt" value="false">Wir wollen auch Ihrem Gesprächspartner die Möglichkeit geben, sich vorzustellen, bevor wir mit dem Gespräch beginnen. Ihnen sagte ich ja bereits 'Herzlich Willkommen'.</condition></condition></template>
+</category>
+<category>
+	<pattern>JA</pattern><that>* und gibt es noch *</that>
+	<template><condition name="aktiverSpieler" value="User1">#Interruption#Frau Schmidt, bitte gedulden Sie sich. Das ist Herrn Meiers Redezeit. Also nochmal: <that /></condition><condition name="aktiverSpieler" value="User2">Gut, welches Ziel haben Sie noch?</condition></template>
+</category>
+<category>
+	<pattern>JA</pattern><that>* weiteres Ziel</that>
+	<template><condition name="aktiverSpieler" value="User1">#Interruption#Frau Schmidt, bitte gedulden Sie sich. Das ist Herrn Meiers Redezeit. Also nochmal: <that /></condition><condition name="aktiverSpieler" value="User2">Bitte beschreiben Sie dieses Ziel.</condition></template>
+</category>
+<category>
+	<pattern>JA SICHER</pattern>
+	<template><condition name="aktiverSpieler" value="alle">#Criticize#Was meinen Sie? Ich habe Ihnen keine Frage gestellt, die man mit Ja oder Nein beantworten kann. Ich sagte: <that /></condition><condition name="aktiverSpieler" value="User2">#Interruption#Herr Meier, bitte halten Sie sich an dieser Stelle zurück. Frau Schmidt ist an der Reihe. Also nochmal: <that /></condition><condition name="aktiverSpieler" value="User1"><condition name="vorgestellt" value="true">#Criticize#Was meinen Sie? Ich habe Ihnen keine Frage gestellt, die man mit Ja oder Nein beantworten kann. Ich sagte: <that /></condition><condition name="vorgestellt" value="false">Wir wollen auch Ihrem Gesprächspartner die Möglichkeit geben, sich vorzustellen, bevor wir mit dem Gespräch beginnen. Ihnen sagte ich ja bereits 'Herzlich Willkommen'.</condition></condition></template>
+</category>
+<category>
+	<pattern>JA SICHER</pattern><that>* weiteres Ziel</that>
+	<template><condition name="aktiverSpieler" value="User2">#Interruption#Herr Meier, bitte halten Sie sich an dieser Stelle zurück. Frau Schmidt ist an der Reihe. Also Frau Schmidt: <that /></condition><condition name="aktiverSpieler" value="User1">Bitte beschreiben Sie dieses Ziel.</condition></template>
+</category>
+<category>
+	<pattern>JA SICHER</pattern><that>* Grund nennen</that>
+	<template><condition name="aktiverSpieler" value="User2">#Interruption#Herr Meier, bitte halten Sie sich an dieser Stelle zurück. Frau Schmidt ist an der Reihe. Sagen Sie, Frau Schmidt: <that /></condition><condition name="aktiverSpieler" value="User1">Sie scheinen sich gut vorbereitet zu haben. Was erhoffen Sie sich also außerdem noch von unserem Gespräch heute für die Zukunft?</condition></template>
+</category>
+<category>
+	<pattern>JA SICHER</pattern><that>* und gibt es noch *</that>
+	<template><condition name="aktiverSpieler" value="User2">#Interruption#Herr Meier, bitte halten Sie sich an dieser Stelle zurück. Frau Schmidt ist an der Reihe. Also nochmal: <that /></condition><condition name="aktiverSpieler" value="User1">Gut, welches Ziel haben Sie noch?</condition></template>
+</category>
+<category>
+	<pattern>NEIN</pattern>
+	<template><condition name="aktiverSpieler" value="alle">#Criticize#Was meinen Sie? Ich habe Ihnen keine Frage gestellt, die man mit Ja oder Nein beantworten kann. Ich sagte: <that /></condition><condition name="aktiverSpieler" value="User2">#Interruption#Herr Meier, bitte halten Sie sich an dieser Stelle zurück. Frau Schmidt ist an der Reihe. Also nochmal: <that /></condition><condition name="aktiverSpieler" value="User1"><condition name="vorgestellt" value="true">#Criticize#Was meinen Sie? Ich habe Ihnen keine Frage gestellt, die man mit Ja oder Nein beantworten kann. Ich sagte: <that /></condition><condition name="vorgestellt" value="false">Wir wollen auch Ihrem Gesprächspartner die Möglichkeit geben, sich vorzustellen, bevor wir mit dem Gespräch beginnen. Ihnen sagte ich ja bereits 'Herzlich Willkommen'.</condition></condition></template>
+</category>
+<category>
+	<pattern>NEIN</pattern><that>* weiteres Ziel</that>
+	<template><condition name="aktiverSpieler" value="User2">#Interruption#Herr Meier, bitte halten Sie sich zurück. Frau Schmidt ist an der Reihe. Bitte, Frau Schmidt: <that /></condition><condition name="aktiverSpieler" value="User1">In Ordnung. Frau Schmidt, welche Ziele haben Sie?<think><set name="aktiverSpieler">User2</set></think></condition></template>
+</category>
+<category>
+	<pattern>NEIN</pattern><that>* und gibt es noch *</that>
+	<template><condition name="aktiverSpieler" value="User2">#Interruption#Herr Meier, bitte halten Sie sich zurück. Frau Schmidt ist an der Reihe. Also sagen Sie, Frau Schmidt: <that /></condition><condition name="aktiverSpieler" value="User1">In Ordnung. Frau Schmidt, welche Ziele haben Sie?<think><set name="aktiverSpieler">User2</set></think></condition></template>
+</category>
+<category>
+	<pattern>NEIN</pattern><that>* Grund nennen</that>
+	<template><condition name="aktiverSpieler" value="User2">#Interruption#Herr Meier, bitte halten Sie sich zurück. Frau Schmidt ist an der Reihe. Also Frau Schmidt: <that /></condition><condition name="aktiverSpieler" value="User1">In Ordnung. Frau Schmidt, welche Ziele haben Sie?<think><set name="aktiverSpieler">User2</set></think></condition></template>
+</category>
+<category>
+	<pattern>NEIN EHER NICHT</pattern><that>* Grund nennen</that>
+	<template><condition name="aktiverSpieler" value="User1">#Interruption#Frau Schmidt, bitte gedulden Sie sich. Das ist Herrn Meiers Redezeit. Sagen Sie, Herr Meier: <that /></condition><condition name="aktiverSpieler" value="User2">Gut. Nachdem wir jetzt geklärt haben, was Sie sich von diesem Gespräch erhoffen, sollten wir gemeinsam festlegen, über welche Themen wir heute sprechen wollen. <think><set name="topic">Mediator_Phase2</set></think></condition></template>
+</category>
+<category>
+	<pattern>NEIN EHER NICHT</pattern><that>* und gibt es noch *</that>
+	<template><condition name="aktiverSpieler" value="User1">#Interruption#Frau Schmidt, bitte gedulden Sie sich. Das ist Herrn Meiers Redezeit. Also, Herr Meier: <that /></condition><condition name="aktiverSpieler" value="User2">Gut. Nachdem wir jetzt geklärt haben, was Sie sich von diesem Gespräch erhoffen, sollten wir gemeinsam festlegen, über welche Themen wir heute sprechen wollen. <think><set name="topic">Mediator_Phase2</set></think></condition></template>
+</category>
+<category>
+	<pattern>NEIN EHER NICHT</pattern><that>* weiteres Ziel</that>
+	<template><condition name="aktiverSpieler" value="User1">#Interruption#Frau Schmidt, bitte gedulden Sie sich. Das ist Herrn Meiers Redezeit. Sagen Sie, Herr Meier: <that /></condition><condition name="aktiverSpieler" value="User2">Gut. Nachdem wir jetzt geklärt haben, was Sie sich von diesem Gespräch erhoffen, sollten wir gemeinsam festlegen, über welche Themen wir heute sprechen wollen. <think><set name="topic">Mediator_Phase2</set></think></condition></template>
+</category>
+<category>
+	<pattern>NEIN EHER NICHT</pattern>
+	<template><condition name="aktiverSpieler" value="alle">#Criticize#Was meinen Sie? Ich habe Ihnen keine Frage gestellt, die man mit Ja oder Nein beantworten kann. Ich sagte: <that /></condition><condition name="aktiverSpieler" value="User1">#Interruption#Frau Schmidt, bitte gedulden Sie sich. Das ist Herrn Meiers Redezeit. Also nochmal: <that /></condition><condition name="aktiverSpieler" value="User2"><condition name="vorgestellt" value="true">#Criticize#Was meinen Sie? Ich habe Ihnen keine Frage gestellt, die man mit Ja oder Nein beantworten kann. Ich sagte: <that /></condition><condition name="vorgestellt" value="false">Wir wollen auch Ihrem Gesprächspartner die Möglichkeit geben, sich vorzustellen, bevor wir mit dem Gespräch beginnen. Ihnen sagte ich ja bereits 'Herzlich Willkommen'.</condition></condition></template>
+</category>
+<category>
+	<pattern>P01N01START</pattern>
+	<template><think><set name="vorgestellt">false</set><set name="zieleUser1">0</set><set name="zieleUser2">0</set></think>Guten Tag. Mein Name ist Medi Ator. Schön, dass Sie so schnell Zeit für ein Gespräch gefunden haben. Bitte stellen Sie sich kurz vor.</template>
+</category>
+<category>
+	<pattern>P01N02INTRO</pattern><that>* alle Entscheidungen treffen *</that>
+	<template>Zunächst möchte ich ein paar Regeln für dieses Gespräch festlegen. Zum Einen ist es wichtig, dass wir einander nicht ins Wort fallen. Zum Anderen sollten wir immer respektvoll und höflich miteinander umgehen und persönliche Angriffe vermeiden.</template>
+</category>
+<category>
+	<pattern>P01N03INTRO2</pattern><that>* miteinander umgehen und *</that>
+	<template>Bevor wir uns dem eigentlichen Thema widmen, würde ich gerne ein paar Ziele für das heutige Gespräch setzen. Diese Ziele beziehen sich weniger auf eine konkrete Lösung des Problems, sondern sind eher allgemeine positive Ziele, die Sie sich als Ergebnis dieses Gesprächs wünschen. Herr Meier, versuchen Sie doch mal, ein Ziel zu formulieren.</template>
+</category>
+</aiml>

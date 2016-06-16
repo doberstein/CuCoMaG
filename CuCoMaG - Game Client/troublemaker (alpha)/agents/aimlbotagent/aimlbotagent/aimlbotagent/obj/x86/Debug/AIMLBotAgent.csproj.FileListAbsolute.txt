@@ -1,0 +1,145 @@
+C:\Users\Kathi\Desktop\Master Semester 3\Forschungsprojekt 2\Programmierte Agenten\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.exe
+C:\Users\Kathi\Desktop\Master Semester 3\Forschungsprojekt 2\Programmierte Agenten\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.pdb
+C:\Users\Kathi\Desktop\Master Semester 3\Forschungsprojekt 2\Programmierte Agenten\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLbot.dll
+C:\Users\Kathi\Desktop\Master Semester 3\Forschungsprojekt 2\Programmierte Agenten\AIMLBotAgent\AIMLBotAgent\bin\Debug\SQLSpaces.dll
+C:\Users\Kathi\Desktop\Master Semester 3\Forschungsprojekt 2\Programmierte Agenten\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kathi\Desktop\Master Semester 3\Forschungsprojekt 2\Programmierte Agenten\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\Kathi\Desktop\Master Semester 3\Forschungsprojekt 2\Programmierte Agenten\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\AIMLBotAgent\AIMLBotAgent\bin\Debug\SQLSpaces.dll
+C:\Users\Julia\Desktop\FP\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.exe
+C:\Users\Julia\Desktop\FP\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.pdb
+C:\Users\Julia\Desktop\FP\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Julia\Desktop\FP\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\Julia\Desktop\FP\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Code\Code\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Code\Code\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Code\Code\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Code\Code\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Code\Code\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Code\Code 24.01.2012\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Code\Code 24.01.2012\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Code\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Connection.txt
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Code\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Code\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Code\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Code\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Code\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\Julia\Desktop\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\Julia\Desktop\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\Julia\Desktop\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Connection.txt
+C:\Users\Julia\Desktop\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.exe
+C:\Users\Julia\Desktop\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.pdb
+C:\Users\Julia\Desktop\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLbot.dll
+C:\Users\Julia\Desktop\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\SQLSpaces.dll
+C:\Users\Julia\Desktop\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\schmidt\Desktop\Agents - 01.02.2012 NEU (working)\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Desktop\Agents - 01.02.2012 NEU (working)\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\Agents - 01.02.2012 NEU (working)\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Connection.txt
+C:\Users\schmidt\Desktop\Agents - 01.02.2012 NEU (working)\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Desktop\Agents - 01.02.2012 NEU (working)\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\Agents - 01.02.2012 NEU (working)\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLbot.dll
+C:\Users\schmidt\Desktop\Agents - 01.02.2012 NEU (working)\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\SQLSpaces.dll
+C:\Users\schmidt\Desktop\Agents - 01.02.2012 NEU (working)\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\schmidt\Desktop\15.02.2012 - Aggressionsagent repariert\15.02.2012 - Aggressionsagent repariert\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Desktop\15.02.2012 - Aggressionsagent repariert\15.02.2012 - Aggressionsagent repariert\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\15.02.2012 - Aggressionsagent repariert\15.02.2012 - Aggressionsagent repariert\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Connection.txt
+C:\Users\schmidt\Desktop\15.02.2012 - Aggressionsagent repariert\15.02.2012 - Aggressionsagent repariert\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Desktop\15.02.2012 - Aggressionsagent repariert\15.02.2012 - Aggressionsagent repariert\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\15.02.2012 - Aggressionsagent repariert\15.02.2012 - Aggressionsagent repariert\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLbot.dll
+C:\Users\schmidt\Desktop\15.02.2012 - Aggressionsagent repariert\15.02.2012 - Aggressionsagent repariert\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\SQLSpaces.dll
+C:\Users\schmidt\Desktop\15.02.2012 - Aggressionsagent repariert\15.02.2012 - Aggressionsagent repariert\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Connection.txt
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLbot.dll
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\SQLSpaces.dll
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Julia\Desktop\Agents 23.02.12 - JaNeinNeu\Agents\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\Julia\Desktop\Agents 23.02.12 - JaNeinNeu\Agents\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents 23.02.12 - IchDuAgent aktualisiert\Agents 23.02.12 - IchDuAgent aktualisiert\Agents\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents 23.02.12 - IchDuAgent aktualisiert\Agents 23.02.12 - IchDuAgent aktualisiert\Agents\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents 23.02.12 - IchDuAgent aktualisiert\Agents 23.02.12 - IchDuAgent aktualisiert\Agents\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Connection.txt
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents 23.02.12 - IchDuAgent aktualisiert\Agents 23.02.12 - IchDuAgent aktualisiert\Agents\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents 23.02.12 - IchDuAgent aktualisiert\Agents 23.02.12 - IchDuAgent aktualisiert\Agents\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents 23.02.12 - IchDuAgent aktualisiert\Agents 23.02.12 - IchDuAgent aktualisiert\Agents\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLbot.dll
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents 23.02.12 - IchDuAgent aktualisiert\Agents 23.02.12 - IchDuAgent aktualisiert\Agents\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\SQLSpaces.dll
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents 23.02.12 - IchDuAgent aktualisiert\Agents 23.02.12 - IchDuAgent aktualisiert\Agents\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents neu\A\A\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents neu\A\A\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents neu\A\A\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Connection.txt
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents neu\A\A\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents neu\A\A\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents neu\A\A\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLbot.dll
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents neu\A\A\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\SQLSpaces.dll
+C:\Users\schmidt\Desktop\Client & Agenten - Testversionen\Agents neu\A\A\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\schmidt\Desktop\Client & Agenten\Agents neu\A\A\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Desktop\Client & Agenten\Agents neu\A\A\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\Julia\Desktop\Agents 25.02.12\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\Julia\Desktop\Agents 25.02.12\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\ColCoMa\Agents\Agents 25.02.12\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Desktop\ColCoMa\Agents\Agents 25.02.12\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\ColCoMa\Agents\Agents 25.02.12\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Connection.txt
+C:\Users\schmidt\Desktop\ColCoMa\Agents\Agents 25.02.12\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Desktop\ColCoMa\Agents\Agents 25.02.12\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\ColCoMa\Agents\Agents 25.02.12\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLbot.dll
+C:\Users\schmidt\Desktop\ColCoMa\Agents\Agents 25.02.12\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\SQLSpaces.dll
+C:\Users\schmidt\Desktop\ColCoMa\Agents\Agents 25.02.12\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Julia\Desktop\Agents 27.02.2012\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\Julia\Desktop\Agents 27.02.2012\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\ColCoMa\Agents 27.02.2012 - IchDuAgent gefixt\Agents 27.02.2012\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Desktop\ColCoMa\Agents 27.02.2012 - IchDuAgent gefixt\Agents 27.02.2012\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\ColCoMa\Agents 27.02.2012 - IchDuAgent gefixt\Agents 27.02.2012\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Connection.txt
+C:\Users\schmidt\Desktop\ColCoMa\Agents 27.02.2012 - IchDuAgent gefixt\Agents 27.02.2012\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Desktop\ColCoMa\Agents 27.02.2012 - IchDuAgent gefixt\Agents 27.02.2012\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\ColCoMa\Agents 27.02.2012 - IchDuAgent gefixt\Agents 27.02.2012\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLbot.dll
+C:\Users\schmidt\Desktop\ColCoMa\Agents 27.02.2012 - IchDuAgent gefixt\Agents 27.02.2012\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\SQLSpaces.dll
+C:\Users\schmidt\Desktop\ColCoMa\Agents 27.02.2012 - IchDuAgent gefixt\Agents 27.02.2012\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\schmidt\Desktop\ColCoMa\Agents\Agents 27.02.2012\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Desktop\ColCoMa\Agents\Agents 27.02.2012\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\ColCoMa\Agents\Agents 27.02.2012\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Connection.txt
+C:\Users\schmidt\Desktop\ColCoMa\Agents\Agents 27.02.2012\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Desktop\ColCoMa\Agents\Agents 27.02.2012\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\ColCoMa\Agents\Agents 27.02.2012\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLbot.dll
+C:\Users\schmidt\Desktop\ColCoMa\Agents\Agents 27.02.2012\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\SQLSpaces.dll
+C:\Users\schmidt\Desktop\ColCoMa\Agents\Agents 27.02.2012\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\schmidt\Desktop\Agents_neu\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Desktop\Agents_neu\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Connection.txt
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLbot.dll
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\SQLSpaces.dll
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Settings.txt
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\themes.txt
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Beschimpfungen.aiml
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Mediator_Phase1.aiml
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Mediator_Phase2.aiml
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Mediator_Phase3.aiml
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Mediator_Phase4.aiml
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Standardreaktionen.aiml
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.exe
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.pdb
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Connection.txt
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Settings.txt
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\themes.txt
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Beschimpfungen.aiml
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Mediator_Phase1.aiml
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Mediator_Phase2.aiml
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Mediator_Phase3.aiml
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Mediator_Phase4.aiml
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\Standardreaktionen.aiml
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.exe
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLBotAgent.pdb
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\AIMLbot.dll
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\bin\Debug\SQLSpaces.dll
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\obj\x86\Debug\AIMLBotAgent.csprojResolveAssemblyReference.cache

@@ -1,0 +1,19 @@
+C:\Users\schmidt\Desktop\Agents_neu\Agents\SammelAgent\bin\Debug\SammelAgent.exe
+C:\Users\schmidt\Desktop\Agents_neu\Agents\SammelAgent\bin\Debug\SammelAgent.pdb
+C:\Users\schmidt\Desktop\Agents_neu\Agents\SammelAgent\bin\Debug\SQLSpaces.dll
+C:\Users\schmidt\Desktop\Agents_neu\Agents\SammelAgent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\schmidt\Desktop\Agents_neu\Agents\SammelAgent\obj\x86\Debug\SammelAgent.exe
+C:\Users\schmidt\Desktop\Agents_neu\Agents\SammelAgent\obj\x86\Debug\SammelAgent.pdb
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\SammelAgent\bin\Debug\SammelAgent.exe
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\SammelAgent\bin\Debug\SammelAgent.pdb
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\SammelAgent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\SammelAgent\obj\x86\Debug\SammelAgent.exe
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\SammelAgent\obj\x86\Debug\SammelAgent.pdb
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\SammelAgent\bin\Debug\SQLSpaces.dll
+C:\Users\schmidt\Desktop\ColCoMa\Finaler Code\Agents_neu\Agents\SammelAgent\bin\Debug\Connection.txt
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\SammelAgent\obj\x86\Debug\SammelAgent.exe
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\SammelAgent\obj\x86\Debug\SammelAgent.pdb
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\SammelAgent\bin\Debug\Connection.txt
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\SammelAgent\bin\Debug\SammelAgent.exe
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\SammelAgent\bin\Debug\SammelAgent.pdb
+C:\Users\Administrator\Dropbox\Bachelor Arbeit\ColCoMa\Quellcode\Agenten\Agents\SammelAgent\bin\Debug\SQLSpaces.dll

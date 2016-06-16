@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+
+
+
+
+
+<aiml>
+<!--author: schmidt-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.1.0.17877-->
+<category>
+	<pattern>*</pattern>
+	<template>
+		<random>
+			<li>Ich verstehe nicht, was Sie meinen.</li>
+			<li>Ich bin mir nicht sicher, ob ich das richtig verstanden habe.</li>
+			<li>Könnten Sie das vielleicht etwas näher ausführen?</li>
+		</random></template>
+</category>
+<category>
+	<pattern>SILENCE1</pattern>
+	<template>#Ping#<get name="aktiverSpieler"></get>Warum antworten Sie nicht? Ich wiederhole: <that /></template>
+</category>
+<category>
+	<pattern>SILENCE2</pattern>
+	<template>#Ping#<get name="aktiverSpieler"></get>Sie können sich Zeit zum Nachdenken nehmen, aber wenn Sie gar nichts sagen, kommen wir nicht weiter. Also nochmal: <that index="2" /></template>
+</category>
+<category>
+	<pattern>SILENCE3</pattern>
+	<template>#Ping#<get name="aktiverSpieler"></get>Sie wirken sehr abwesend. Ich frage Sie noch einmal: <that index="3" /></template>
+</category>
+<category>
+	<pattern>SILENCE4</pattern>
+	<template>#Cancel#<get name="aktiverSpieler"></get>Tut mir leid, aber so kann das hier nicht funktionieren. Kommen Sie wieder, wenn Sie etwas zu sagen haben. Ich breche das Gespräch an dieser Stelle ab.</template>
+</category>
+</aiml>

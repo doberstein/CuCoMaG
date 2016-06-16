@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+
+
+
+
+<aiml>
+<!--author: schmidt-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.1.0.17877-->
+<category>
+	<pattern>RUDENESS</pattern>
+	<template>
+		<random>
+			<li>Don't talk to me in such a rude way!!!</li>
+			<li>Why are you speaking so rudely?!</li>
+			<li>Don't speak to me in such a rude way or I'll report to your manager!!!</li>
+		</random> I just said: <that /></template>
+</category>
+<category>
+	<pattern>AGGRESSION</pattern>
+	<template>
+		<random>
+			<li>Be careful with your aggressive attitude!!!</li>
+			<li>How can you speak to me so aggressive!!!</li>
+			<li>Watch your behavior, don't be that aggressive!!!</li>
+		</random> I'll just repeat: <that /></template>
+</category>
+</aiml>

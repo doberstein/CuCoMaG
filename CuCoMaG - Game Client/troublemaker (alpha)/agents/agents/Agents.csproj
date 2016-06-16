@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E9829EBC-6D0A-4E53-958F-BB16F4FC8E51}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Agents</RootNamespace>
+    <AssemblyName>Agents</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Code\Code 24.01.2012\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent\AIMLBotAgent.csproj">
+      <Project>{7661DFA7-E5E5-4693-B332-43B9CD6CD77D}</Project>
+      <Name>AIMLBotAgent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Code\Code 24.01.2012\AnmeldeAgent\AnmeldeAgent\AnmeldeAgent.csproj">
+      <Project>{3A7B845F-44B5-4847-9458-F5D8C5497B7A}</Project>
+      <Name>AnmeldeAgent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Code\Code 24.01.2012\DirectFeedbackAgent\DirectFeedbackAgent\DirectFeedbackAgent.csproj">
+      <Project>{3499187C-18BD-4D5A-A82D-5DAABBF1E392}</Project>
+      <Name>DirectFeedbackAgent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Code\Code 24.01.2012\FeedbackAgent\FeedbackAgent\FeedbackAgent.csproj">
+      <Project>{79E3CADA-42B7-488B-9939-6845FAEC4454}</Project>
+      <Name>FeedbackAgent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Code\Code 24.01.2012\IchDuAgent\IchDuAgent\IchDuAgent.csproj">
+      <Project>{ED70C834-4525-42A1-8720-6E02E6795918}</Project>
+      <Name>IchDuAgent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Code\Code 24.01.2012\Schimpfagent\Schimpfagent\Schimpfagent.csproj">
+      <Project>{EBB447D8-C043-41A5-B8DB-76F5B392CB20}</Project>
+      <Name>Schimpfagent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Code\Code 24.01.2012\SilenceAgent\SilenceAgent\SilenceAgent.csproj">
+      <Project>{BD1C5245-916E-4EBC-9002-EA8E9F0234E3}</Project>
+      <Name>SilenceAgent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Code\Code 24.01.2012\ThemenAgent\ThemenAgent\ThemenAgent.csproj">
+      <Project>{7CBAB416-BCE3-4A51-9E43-F1E1FB93F0DC}</Project>
+      <Name>ThemenAgent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Code\Code 24.01.2012\VisualisierungsAgent\VisualisierungsAgent\VisualisierungsAgent.csproj">
+      <Project>{FBFFDA31-D349-4107-9E21-A316161DFC83}</Project>
+      <Name>VisualisierungsAgent</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

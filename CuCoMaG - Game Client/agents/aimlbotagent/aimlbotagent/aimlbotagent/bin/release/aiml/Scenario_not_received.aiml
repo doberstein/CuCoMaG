@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<aiml>
+<!--author: doberstein-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.1.0.17877-->
+<!--
+<category>
+	<pattern>TARGET BOTSTART</pattern>
+	<template>botstart</template>
+</category>
+
+<category>
+	<pattern>HELLO MY NAME IS TESTCASE</pattern>
+	<template>Testcase works</template>
+</category>
+-->
+
+<category>
+	<pattern>HELLO MY NAME IS *</pattern>
+	<template>That is weird. The form on your website that directed me into this chat here said that I would be talking to a Jamie.</template>
+</category>
+<category>
+	<pattern>HELLO MY NAME IS</pattern>
+	<template>What is your name?</template>
+</category>
+<category>
+	<pattern>HELLO MY NAME IS JAMIE</pattern>
+	<template>I have a problem with my order, Jamie.</template>
+</category>
+<category>
+	<pattern>HELLO MY NAME IS JAMIE *</pattern>
+	<template>I have a problem with my order, Jamie.</template>
+</category>
+<category>
+	<pattern>HELLO MY NAME IS * JAMIE *</pattern>
+	<template>I have a problem with my order, Jamie.</template>
+</category>
+<category>
+	<pattern>HOW CAN I HELP YOU</pattern>
+	<template>I have a problem with my order.</template>
+</category>
+<category>
+	<pattern>HOW CAN I HELP YOU *</pattern>
+	<template>I have a problem with my order.</template>
+</category>
+<category>
+	<pattern>HI MY NAME IS *</pattern>
+	<template>That is weird. The form on your website that directed me into this chat here said that I would be talking to a Jamie.</template>
+</category>
+<category>
+	<pattern>HI MY NAME IS</pattern>
+	<template>What is your name?</template>
+</category>
+<category>
+	<pattern>HI MY NAME IS JAMIE</pattern>
+	<template>I have a problem with my order, Jamie.</template>
+</category>
+<category>
+	<pattern>HI MY NAME IS JAMIE *</pattern>
+	<template>I have a problem with my order, Jamie.</template>
+</category>
+<category>
+	<pattern>HI MY NAME IS * JAMIE *</pattern>
+	<template>I have a problem with my order, Jamie.</template>
+</category>
+
+<category>
+	<pattern>YES THAT WAS MY SECOND NAME AND JAMIE IS MY FIRST NAME SO HOW CAN I HELP YOU</pattern>
+	<template>I have a problem with my order, Jamie.</template>
+</category>
+<category>
+	<pattern>YES THAT WAS MY SECOND NAME AND JAMIE IS MY FIRST NAME SO HOW CAN I HELP YOU *</pattern>
+	<template>I have a problem with my order, Jamie.</template>
+</category>
+
+<category>
+	<pattern>MY NAME DOES NOT MATTER ANYWAY SO HOW CAN I HELP YOU</pattern>
+	<template>I have a problem with my order.</template>
+</category>
+<category>
+	<pattern>MY NAME DOES NOT MATTER ANYWAY SO HOW CAN I HELP YOU *</pattern>
+	<template>I have a problem with my order.</template>
+</category>
+
+<category>
+	<pattern>MY NAME IS *</pattern>
+	<template>That is weird. The form on your website that directed me into this chat here said that I would be talking to a Jamie.</template>
+</category>
+<category>
+	<pattern>MY NAME IS</pattern>
+	<template>What is your name?</template>
+</category>
+
+<category>
+	<pattern>I DO NOT UNDERSTAND WHAT YOU MEAN</pattern>
+	<template>What is so hard to understand? I have a problem with my order.</template>
+</category>
+<category>
+	<pattern>I DO NOT UNDERSTAND WHAT YOU MEAN *</pattern>
+	<template>What is so hard to understand? I have a problem with my order.</template>
+</category>
+<category>
+	<pattern>OK I AM SORRY TO HEAR THAT *</pattern>
+	<template>That does not help me. I have a problem with my order.</template>
+</category>
+<category>
+	<pattern>OK I AM SORRY TO HEAR THAT</pattern>
+	<template>That does not help me. I have a problem with my order.</template>
+</category>
+<category>
+	<pattern>WHAT IS THE PROBLEM WITH YOUR ORDER</pattern>
+	<template>I bought two pairs of shoes two days ago but I have not received them yet.</template>
+</category>
+<category>
+	<pattern>WHAT IS THE PROBLEM WITH YOUR ORDER *</pattern>
+	<template>I bought two pairs of shoes two days ago but I have not received them yet.</template>
+</category>
+<category>
+	<pattern>I AM SORRY BUT I DO NOT UNDERSTAND WHAT YOU MEAN</pattern>
+	<template>What part do you not understand? I bought two pairs of shoes two days ago but I have not received them yet.</template>
+</category>
+<category>
+	<pattern>I AM SORRY BUT I DO NOT UNDERSTAND WHAT YOU MEAN *</pattern>
+	<template>What part do you not understand? I bought two pairs of shoes two days ago but I have not received them yet.</template>
+</category>
+<category>
+	<pattern>I AM SORRY TO HEAR THAT</pattern>
+	<template>That does not help me. I repeat: I bought two pairs of shoes two days ago but I have not received them yet.</template>
+</category>
+<category>
+	<pattern>I AM SORRY TO HEAR THAT *</pattern>
+	<template>That does not help me. I repeat: I bought two pairs of shoes two days ago but I have not received them yet.</template>
+</category>
+
+<category>
+	<pattern>CAN YOU * DETAILS *</pattern>
+	<template>What details do you need?</template>
+</category>
+<category>
+	<pattern>CAN YOU * DETAILS</pattern>
+	<template>What details do you need?</template>
+</category>
+<category>
+	<pattern>CAN YOU DETAILS</pattern>
+	<template>What details do you need?</template>
+</category>
+<category>
+	<pattern>CAN YOU * INFORMATION *</pattern>
+	<template>What information do you need?</template>
+</category>
+<category>
+	<pattern>CAN YOU * INFORMATION</pattern>
+	<template>What information do you need?</template>
+</category>
+<category>
+	<pattern>CAN YOU INFORMATION</pattern>
+	<template>What information do you need?</template>
+</category>
+<category>
+	<pattern>CAN YOU</pattern>
+	<template>Do you want me to give you some details?</template>
+</category>
+<category>
+	<pattern>CAN YOU *</pattern>
+	<template>Do you want me to give you some details?</template>
+</category>
+
+<category>
+	<pattern>YES PLEASE</pattern>
+	<template>What details do you need?</template>
+</category>
+<category>
+	<pattern>YES PLEASE *</pattern>
+	<template>What details do you need?</template>
+</category>
+<category>
+	<pattern>YES DO THAT</pattern>
+	<template>What details do you need?</template>
+</category>
+<category>
+	<pattern>YES DO THAT *</pattern>
+	<template>What details do you need?</template>
+</category>
+<category>
+	<pattern>YES GIVE ME SOME DETAILS NOW</pattern>
+	<template>What details do you need?</template>
+</category>
+<category>
+	<pattern>YES GIVE ME SOME DETAILS NOW *</pattern>
+	<template>What details do you need?</template>
+</category>
+
+
+<category>
+	<pattern>PLEASE GIVE ME YOUR * POSTCODE *</pattern>
+	<template>My postcode is 12345.</template>
+</category>
+<category>
+	<pattern>PLEASE GIVE ME YOUR POSTCODE</pattern>
+	<template>My postcode is 12345.</template>
+</category>
+<category>
+	<pattern>PLEASE GIVE ME YOUR * NAME *</pattern>
+	<template>My name is Charlie.</template>
+</category>
+<category>
+	<pattern>PLEASE GIVE ME YOUR NAME</pattern>
+	<template>My name is Charlie.</template>
+</category>
+<category>
+	<pattern>PLEASE GIVE ME YOUR * ORDERNUMBER *</pattern>
+	<template>My order number is EA12345.</template>
+</category>
+<category>
+	<pattern>PLEASE GIVE ME YOUR ORDERNUMBER</pattern>
+	<template>My order number is EA12345.</template>
+</category>
+<category>
+	<pattern>PLEASE GIVE ME YOUR *</pattern>
+	<template>I will just give you all the info that i have: My name is Charlie, my postcode is 12345 and my ordernumber is EA12345.</template>
+</category>
+<category>
+	<pattern>PLEASE GIVE ME YOUR</pattern>
+	<template>I will just give you all the info that i have: My name is Charlie, my postcode is 12345 and my ordernumber is EA12345.</template>
+</category>
+
+<category>
+	<pattern>NOW GIVE ME YOUR ORDERNUMBER</pattern>
+	<template>My order number is EA12345.</template>
+</category>
+<category>
+	<pattern>NOW GIVE ME YOUR ORDERNUMBER *</pattern>
+	<template>My order number is EA12345.</template>
+</category>
+<category>
+	<pattern>I ALSO NEED YOUR ORDERNUMBER</pattern>
+	<template>My order number is EA12345.</template>
+</category>
+<category>
+	<pattern>I ALSO NEED YOUR ORDERNUMBER *</pattern>
+	<template>My order number is EA12345.</template>
+</category>
+<category>
+	<pattern>THERE ARE MULTIPLE * ORDERNUMBER</pattern>
+	<template>My order number is EA12345.</template>
+</category>
+<category>
+	<pattern>THERE ARE MULTIPLE * ORDERNUMBER *</pattern>
+	<template>My order number is EA12345.</template>
+</category>
+
+<category>
+	<pattern>CUSTOMERINFO NAME CHARLIE POSTCODE *</pattern>
+	<template>Ok. Could you please check the deliverynumber for me.</template>
+</category>
+
+<category>
+	<pattern>YOUR ORDER SHOULD ARRIVE IN TWO DAYS</pattern>
+	<template>But in the ordering form it was stated that I would receive my package two days after ordering.</template>
+</category>
+<category>
+	<pattern>YOUR ORDER SHOULD ARRIVE IN TWO DAYS *</pattern>
+	<template>But in the ordering form it was stated that I would receive my package two days after ordering.</template>
+</category>
+<category>
+	<pattern>THE SHIPPING COMPANY HAD PROBLEMS AND YOUR ORDER SHOULD ARRIVE IN TWO DAYS</pattern>
+	<template>But in the ordering form it was stated that I would receive my package two days after ordering.</template>
+</category>
+<category>
+	<pattern>THE SHIPPING COMPANY HAD PROBLEMS AND YOUR ORDER SHOULD ARRIVE IN TWO DAYS *</pattern>
+	<template>But in the ordering form it was stated that I would receive my package two days after ordering.</template>
+</category>
+<category>
+	<pattern>YOUR ORDER SHOULD ARRIVE IN TWO DAYS AS YOU WOULD HAVE SEEN IF YOU HAD CHECKED IT ONLINE YOURSELF</pattern>
+	<template>But in the ordering form it was stated that I would receive my package two days after ordering.</template>
+</category>
+<category>
+	<pattern>YOUR ORDER SHOULD ARRIVE IN TWO DAYS AS YOU WOULD HAVE SEEN IF YOU HAD CHECKED IT ONLINE YOURSELF *</pattern>
+	<template>But in the ordering form it was stated that I would receive my package two days after ordering.</template>
+</category>
+
+<category>
+	<pattern>I AM SORRY TO HEAR THAT BUT THERE IS NOTHING I CAN DO SINCE THIS IS THE FAULT OF THE DELIVERY COMPANY AND NOT OURS</pattern>
+	<template>Then I do not want the shoes anymore. Please cancel the order and refund the costs.</template>
+</category>
+<category>
+	<pattern>I AM SORRY TO HEAR THAT BUT THERE IS NOTHING I CAN DO SINCE THIS IS THE FAULT OF THE DELIVERY COMPANY AND NOT OURS *</pattern>
+	<template>Then I do not want the shoes anymore. Please cancel the order and refund the costs.</template>
+</category>
+<category>
+	<pattern>I AM SORRY TO HEAR THAT AND I WILL TRY TO CONTACT THE SHIPPING COMPANY AGAIN TO ASK TO DELIVER AS SOON AS POSSIBLE</pattern>
+	<template>Ok, I can accept that solution.</template>
+</category>
+<category>
+	<pattern>I AM SORRY TO HEAR THAT AND I WILL TRY TO CONTACT THE SHIPPING COMPANY AGAIN TO ASK TO DELIVER AS SOON AS POSSIBLE *</pattern>
+	<template>Ok, I can accept that solution.</template>
+</category>
+
+
+<category>
+	<pattern>I AM REALLY SORRY TO HEAR THAT BUT CAN I OFFER YOU</pattern>
+	<template>What can you offer me?</template>
+</category>
+<category>
+	<pattern>I AM REALLY SORRY TO HEAR THAT BUT CAN I OFFER YOU *</pattern>
+	<template>Could you offer me a refund or a coupon?</template>
+</category>
+<category>
+	<pattern>I AM REALLY SORRY TO HEAR THAT BUT CAN I OFFER YOU * REFUND *</pattern>
+	<template>Ok. If you refund the delivery costs I would be satisfied.</template>
+</category>
+<category>
+	<pattern>I AM REALLY SORRY TO HEAR THAT BUT CAN I OFFER YOU * REFUND</pattern>
+	<template>Ok. If you refund the delivery costs I would be satisfied.</template>
+</category>
+<category>
+	<pattern>I AM REALLY SORRY TO HEAR THAT BUT CAN I OFFER YOU * COUPON *</pattern>
+	<template>Ok. If you offer me a coupon for 25 EURO I would be satisfied.</template>
+</category>
+<category>
+	<pattern>I AM REALLY SORRY TO HEAR THAT BUT CAN I OFFER YOU * COUPON</pattern>
+	<template>Ok. If you offer me a coupon for 25 EURO I would be satisfied.</template>
+</category>
+
+<category>
+	<pattern>I WILL DO THAT RIGHT AWAY SORRY FOR YOUR INCONVENIENCE</pattern>
+	<template>Ok. Thank you. You have my bank information. I expect the refund by the end of this week. Goodbye.</template>
+</category>
+<category>
+	<pattern>I WILL DO THAT RIGHT AWAY SORRY FOR YOUR INCONVENIENCE *</pattern>
+	<template>Ok. Thank you. You have my bank information. I expect the refund by the end of this week. Goodbye.</template>
+</category>
+<category>
+	<pattern>I AM SORRY BUT I CAN NOT DO THAT</pattern>
+	<template>You have a horrible customer support. I will never ever order from your company again and I will tell everyone I know about your awful service.</template>
+</category>
+<category>
+	<pattern>I AM SORRY BUT I CAN NOT DO THAT *</pattern>
+	<template>You have a horrible customer support. I will never ever order from your company again and I will tell everyone I know about your awful service.</template>
+</category>
+
+<category>
+	<pattern>OK THANK YOU FOR CONTACTING US AND GOODBYE</pattern>
+	<template>Ok then. Thank you and goodbye!</template>
+</category>
+<category>
+	<pattern>OK THANK YOU FOR CONTACTING US AND GOODBYE *</pattern>
+	<template>Ok then. Thank you and goodbye!</template>
+</category>
+<category>
+	<pattern>I WILL ARRANGE THAT IMMEDIATELY</pattern>
+	<template>Ok. Thank you. You have my information. I expect the coupon by the end of this week. Goodbye.</template>
+<category>
+	<pattern>I WILL ARRANGE THAT IMMEDIATELY *</pattern>
+	<template>Ok. Thank you. You have my information. I expect the coupon by the end of this week. Goodbye.</template>
+</category>
+</category>
+<category>
+	<pattern>I WILL ARRANGE THAT</pattern>
+	<template>Ok then. Thank you and goodbye!</template>
+</category>
+<category>
+	<pattern>I WILL ARRANGE THAT *</pattern>
+	<template>Ok then. Thank you and goodbye!</template>
+</category>
+<category>
+	<pattern>I WILL TRY TO ARRANGE THAT AS SOON AS I HAVE TIME</pattern>
+	<template>Ok. Thank you. You have my information. I expect the coupon by the end of this week. Goodbye.</template>
+</category>
+<category>
+	<pattern>I WILL TRY TO ARRANGE THAT AS SOON AS I HAVE TIME *</pattern>
+	<template>Ok. Thank you. You have my information. I expect the coupon by the end of this week. Goodbye.</template>
+</category>
+
+<category>
+	<pattern>I WILL TRY TO ARRANGE THAT AS SOON AS I HAVE THE TIME</pattern>
+	<template>Ok then. Thank you and goodbye!</template>
+</category>
+<category>
+	<pattern>I WILL TRY TO ARRANGE THAT AS SOON AS I HAVE THE TIME *</pattern>
+	<template>Ok then. Thank you and goodbye!</template>
+</category>
+
+<category>
+	<pattern>OK I WILL ARRANGE THAT IMMEDIATELY</pattern>
+	<template>Ok. Thank you. You have my bank information. I expect the refund by the end of this week. Goodbye</template>
+</category>
+<category>
+	<pattern>OK I WILL ARRANGE THAT IMMEDIATELY *</pattern>
+	<template>Ok. Thank you. You have my bank information. I expect the refund by the end of this week. Goodbye</template>
+</category>
+
+<category>
+	<pattern>OK I WILL TRY TO ARRANGE THAT AS SOON AS I HAVE THE TIME</pattern>
+	<template>Ok. Thank you. You have my bank information. I expect the refund by the end of this week. Goodbye</template>
+</category>
+<category>
+	<pattern>OK I WILL TRY TO ARRANGE THAT AS SOON AS I HAVE THE TIME *</pattern>
+	<template>Ok. Thank you. You have my bank information. I expect the refund by the end of this week. Goodbye</template>
+</category>
+
+<category>
+	<pattern>PLAYER LEFT THE CONVERSATION</pattern>
+	<template>Customer has left.</template>
+</category>
+
+
+
+
+
+
+
+
+
+<category>
+	<pattern>STARTCONVERSATION</pattern>
+	<template><think><set name="vorgestellt">false</set><set name="zieleUser1">0</set><set name="zieleUser2">0</set></think>Hello.</template>
+</category>
+</aiml>

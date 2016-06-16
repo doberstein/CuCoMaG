@@ -1,0 +1,137 @@
+C:\Users\Petra\Desktop\PraxisProjekt\Game\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\bin\Release\Connection.txt
+C:\Users\Petra\Desktop\PraxisProjekt\Game\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\bin\Release\PoliteWords.txt
+C:\Users\Petra\Desktop\PraxisProjekt\Game\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\bin\Release\PolitenessAgent.exe
+C:\Users\Petra\Desktop\PraxisProjekt\Game\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\bin\Release\PolitenessAgent.pdb
+C:\Users\Petra\Desktop\PraxisProjekt\Game\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\bin\Release\SQLSpaces.dll
+C:\Users\Petra\Desktop\PraxisProjekt\Game\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\obj\Release\PolitenessAgent.csprojResolveAssemblyReference.cache
+C:\Users\Petra\Desktop\PraxisProjekt\Game\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\obj\Release\PolitenessAgent.exe
+C:\Users\Petra\Desktop\PraxisProjekt\Game\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\obj\Release\PolitenessAgent.pdb
+C:\Users\Petra\Desktop\PraxisProjekt\Game - Kopie\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\obj\Release\PolitenessAgent.exe
+C:\Users\Petra\Desktop\PraxisProjekt\Game - Kopie\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\obj\Release\PolitenessAgent.pdb
+C:\Users\Petra\Desktop\PraxisProjekt\Game - Kopie\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\bin\Release\Connection.txt
+C:\Users\Petra\Desktop\PraxisProjekt\Game - Kopie\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\bin\Release\PoliteWords.txt
+C:\Users\Petra\Desktop\PraxisProjekt\Game - Kopie\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\bin\Release\PolitenessAgent.exe
+C:\Users\Petra\Desktop\PraxisProjekt\Game - Kopie\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\bin\Release\PolitenessAgent.pdb
+C:\Users\Petra\Desktop\PraxisProjekt\Game - Kopie\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\bin\Release\SQLSpaces.dll
+C:\Users\Petra\Desktop\PraxisProjekt\Game - Kopie\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\obj\Release\PolitenessAgent.csprojResolveAssemblyReference.cache
+C:\Users\Petra\Desktop\PraxisProjekt\SinglePlayer\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\obj\Release\PolitenessAgent.exe
+C:\Users\Petra\Desktop\PraxisProjekt\SinglePlayer\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\obj\Release\PolitenessAgent.pdb
+C:\Users\Petra\Desktop\PraxisProjekt\SinglePlayer\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\bin\Release\Connection.txt
+C:\Users\Petra\Desktop\PraxisProjekt\SinglePlayer\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\bin\Release\PoliteWords.txt
+C:\Users\Petra\Desktop\PraxisProjekt\SinglePlayer\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\bin\Release\PolitenessAgent.exe
+C:\Users\Petra\Desktop\PraxisProjekt\SinglePlayer\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\bin\Release\PolitenessAgent.pdb
+C:\Users\Petra\Desktop\PraxisProjekt\SinglePlayer\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\bin\Release\SQLSpaces.dll
+C:\Users\Petra\Desktop\PraxisProjekt\SinglePlayer\ColCoMa - Source Code (1)\ColCoMa - Source Code\Agents\PolitenessAgent\obj\Release\PolitenessAgent.csprojResolveAssemblyReference.cache
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau\Agents\PolitenessAgent\obj\Release\PolitenessAgent.exe
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau\Agents\PolitenessAgent\obj\Release\PolitenessAgent.pdb
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau\Agents\PolitenessAgent\bin\Release\Connection.txt
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau\Agents\PolitenessAgent\bin\Release\PoliteWords.txt
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau\Agents\PolitenessAgent\bin\Release\PolitenessAgent.exe
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau\Agents\PolitenessAgent\bin\Release\PolitenessAgent.pdb
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau\Agents\PolitenessAgent\bin\Release\SQLSpaces.dll
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau\Agents\PolitenessAgent\obj\Release\PolitenessAgent.csprojResolveAssemblyReference.cache
+C:\Users\Petra\Desktop\zusammenbau\Agents\PolitenessAgent\obj\Release\PolitenessAgent.exe
+C:\Users\Petra\Desktop\zusammenbau\Agents\PolitenessAgent\obj\Release\PolitenessAgent.pdb
+C:\Users\Petra\Desktop\zusammenbau\Agents\PolitenessAgent\bin\Release\Connection.txt
+C:\Users\Petra\Desktop\zusammenbau\Agents\PolitenessAgent\bin\Release\PoliteWords.txt
+C:\Users\Petra\Desktop\zusammenbau\Agents\PolitenessAgent\bin\Release\PolitenessAgent.exe
+C:\Users\Petra\Desktop\zusammenbau\Agents\PolitenessAgent\bin\Release\PolitenessAgent.pdb
+C:\Users\Petra\Desktop\zusammenbau\Agents\PolitenessAgent\bin\Release\SQLSpaces.dll
+C:\Users\Petra\Desktop\zusammenbau\Agents\PolitenessAgent\obj\Release\PolitenessAgent.csprojResolveAssemblyReference.cache
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau_4\Agents\PolitenessAgent\obj\Release\PolitenessAgent.exe
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau_4\Agents\PolitenessAgent\obj\Release\PolitenessAgent.pdb
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau_4\Agents\PolitenessAgent\bin\Release\Connection.txt
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau_4\Agents\PolitenessAgent\bin\Release\PoliteWords.txt
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau_4\Agents\PolitenessAgent\bin\Release\PolitenessAgent.exe
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau_4\Agents\PolitenessAgent\bin\Release\PolitenessAgent.pdb
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau_4\Agents\PolitenessAgent\bin\Release\SQLSpaces.dll
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau_4\Agents\PolitenessAgent\obj\Release\PolitenessAgent.csprojResolveAssemblyReference.cache
+C:\Users\frndlthng\Dropbox\Ma Do Share\Masterprojekt\zusammenbau_4_06_03\Agents\PolitenessAgent\obj\Release\PolitenessAgent.exe
+C:\Users\frndlthng\Dropbox\Ma Do Share\Masterprojekt\zusammenbau_4_06_03\Agents\PolitenessAgent\obj\Release\PolitenessAgent.pdb
+C:\Users\frndlthng\Dropbox\Ma Do Share\Masterprojekt\zusammenbau_4_06_03\Agents\PolitenessAgent\bin\Release\Connection.txt
+C:\Users\frndlthng\Dropbox\Ma Do Share\Masterprojekt\zusammenbau_4_06_03\Agents\PolitenessAgent\bin\Release\PoliteWords.txt
+C:\Users\frndlthng\Dropbox\Ma Do Share\Masterprojekt\zusammenbau_4_06_03\Agents\PolitenessAgent\bin\Release\PolitenessAgent.exe
+C:\Users\frndlthng\Dropbox\Ma Do Share\Masterprojekt\zusammenbau_4_06_03\Agents\PolitenessAgent\bin\Release\PolitenessAgent.pdb
+C:\Users\frndlthng\Dropbox\Ma Do Share\Masterprojekt\zusammenbau_4_06_03\Agents\PolitenessAgent\bin\Release\SQLSpaces.dll
+C:\Users\frndlthng\Dropbox\Ma Do Share\Masterprojekt\zusammenbau_4_06_03\Agents\PolitenessAgent\obj\Release\PolitenessAgent.csprojResolveAssemblyReference.cache
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau_4_06_03\Agents\PolitenessAgent\obj\Release\PolitenessAgent.exe
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau_4_06_03\Agents\PolitenessAgent\obj\Release\PolitenessAgent.pdb
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau_4_06_03\Agents\PolitenessAgent\bin\Release\Connection.txt
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau_4_06_03\Agents\PolitenessAgent\bin\Release\PoliteWords.txt
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau_4_06_03\Agents\PolitenessAgent\bin\Release\PolitenessAgent.exe
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau_4_06_03\Agents\PolitenessAgent\bin\Release\PolitenessAgent.pdb
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau_4_06_03\Agents\PolitenessAgent\bin\Release\SQLSpaces.dll
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\zusammenbau_4_06_03\Agents\PolitenessAgent\obj\Release\PolitenessAgent.csprojResolveAssemblyReference.cache
+C:\Users\frndlthng\Desktop\CuCoMaG - Game Client\Agents\PolitenessAgent\obj\Release\PolitenessAgent.exe
+C:\Users\frndlthng\Desktop\CuCoMaG - Game Client\Agents\PolitenessAgent\obj\Release\PolitenessAgent.pdb
+C:\Users\frndlthng\Desktop\CuCoMaG - Game Client\Agents\PolitenessAgent\bin\Release\Connection.txt
+C:\Users\frndlthng\Desktop\CuCoMaG - Game Client\Agents\PolitenessAgent\bin\Release\PoliteWords.txt
+C:\Users\frndlthng\Desktop\CuCoMaG - Game Client\Agents\PolitenessAgent\bin\Release\PolitenessAgent.exe
+C:\Users\frndlthng\Desktop\CuCoMaG - Game Client\Agents\PolitenessAgent\bin\Release\PolitenessAgent.pdb
+C:\Users\frndlthng\Desktop\CuCoMaG - Game Client\Agents\PolitenessAgent\bin\Release\SQLSpaces.dll
+C:\Users\frndlthng\Desktop\CuCoMaG - Game Client\Agents\PolitenessAgent\obj\Release\PolitenessAgent.csprojResolveAssemblyReference.cache
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\CuCoMaG - Game Client\Agents\PolitenessAgent\obj\Release\PolitenessAgent.exe
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\CuCoMaG - Game Client\Agents\PolitenessAgent\obj\Release\PolitenessAgent.pdb
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\CuCoMaG - Game Client\Agents\PolitenessAgent\bin\Release\Connection.txt
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\CuCoMaG - Game Client\Agents\PolitenessAgent\bin\Release\PoliteWords.txt
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\CuCoMaG - Game Client\Agents\PolitenessAgent\bin\Release\PolitenessAgent.exe
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\CuCoMaG - Game Client\Agents\PolitenessAgent\bin\Release\PolitenessAgent.pdb
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\CuCoMaG - Game Client\Agents\PolitenessAgent\bin\Release\SQLSpaces.dll
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\CuCoMaG - Game Client\CuCoMaG - Game Client (cleaned)  (1)\CuCoMaG - Game Client\Agents\PolitenessAgent\obj\Release\PolitenessAgent.exe
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\CuCoMaG - Game Client\CuCoMaG - Game Client (cleaned)  (1)\CuCoMaG - Game Client\Agents\PolitenessAgent\obj\Release\PolitenessAgent.pdb
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\CuCoMaG - Game Client\CuCoMaG - Game Client (cleaned)  (1)\CuCoMaG - Game Client\Agents\PolitenessAgent\bin\Release\Connection.txt
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\CuCoMaG - Game Client\CuCoMaG - Game Client (cleaned)  (1)\CuCoMaG - Game Client\Agents\PolitenessAgent\bin\Release\PoliteWords.txt
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\CuCoMaG - Game Client\CuCoMaG - Game Client (cleaned)  (1)\CuCoMaG - Game Client\Agents\PolitenessAgent\bin\Release\PolitenessAgent.exe
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\CuCoMaG - Game Client\CuCoMaG - Game Client (cleaned)  (1)\CuCoMaG - Game Client\Agents\PolitenessAgent\bin\Release\PolitenessAgent.pdb
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\CuCoMaG - Game Client\CuCoMaG - Game Client (cleaned)  (1)\CuCoMaG - Game Client\Agents\PolitenessAgent\bin\Release\SQLSpaces.dll
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\CuCoMaG - Game Client\CuCoMaG - Game Client (cleaned)  (1)\CuCoMaG - Game Client\Agents\PolitenessAgent\obj\Release\PolitenessAgent.csprojResolveAssemblyReference.cache
+C:\Users\Petra\Desktop\NEUNEUNEU\Agents\PolitenessAgent\obj\Release\PolitenessAgent.exe
+C:\Users\Petra\Desktop\NEUNEUNEU\Agents\PolitenessAgent\obj\Release\PolitenessAgent.pdb
+C:\Users\Petra\Desktop\NEUNEUNEU\Agents\PolitenessAgent\bin\Release\Connection.txt
+C:\Users\Petra\Desktop\NEUNEUNEU\Agents\PolitenessAgent\bin\Release\PoliteWords.txt
+C:\Users\Petra\Desktop\NEUNEUNEU\Agents\PolitenessAgent\bin\Release\PolitenessAgent.exe
+C:\Users\Petra\Desktop\NEUNEUNEU\Agents\PolitenessAgent\bin\Release\PolitenessAgent.pdb
+C:\Users\Petra\Desktop\NEUNEUNEU\Agents\PolitenessAgent\bin\Release\SQLSpaces.dll
+C:\Users\Petra\Desktop\NEUNEUNEU\Agents\PolitenessAgent\obj\Release\PolitenessAgent.csprojResolveAssemblyReference.cache
+C:\Users\Petra\Desktop\CuCoMaG - Game Client\agents\PolitenessAgent\obj\Release\PolitenessAgent.exe
+C:\Users\Petra\Desktop\CuCoMaG - Game Client\agents\PolitenessAgent\obj\Release\PolitenessAgent.pdb
+C:\Users\Petra\Desktop\CuCoMaG - Game Client\agents\PolitenessAgent\bin\Release\Connection.txt
+C:\Users\Petra\Desktop\CuCoMaG - Game Client\agents\PolitenessAgent\bin\Release\PoliteWords.txt
+C:\Users\Petra\Desktop\CuCoMaG - Game Client\agents\PolitenessAgent\bin\Release\PolitenessAgent.exe
+C:\Users\Petra\Desktop\CuCoMaG - Game Client\agents\PolitenessAgent\bin\Release\PolitenessAgent.pdb
+C:\Users\Petra\Desktop\CuCoMaG - Game Client\agents\PolitenessAgent\bin\Release\SQLSpaces.dll
+C:\Users\Petra\Desktop\CuCoMaG - Game Client\agents\PolitenessAgent\obj\Release\PolitenessAgent.csprojResolveAssemblyReference.cache
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-huangpan\agents\PolitenessAgent\obj\Release\PolitenessAgent.exe
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-huangpan\agents\PolitenessAgent\obj\Release\PolitenessAgent.pdb
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-huangpan\agents\PolitenessAgent\bin\Release\Connection.txt
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-huangpan\agents\PolitenessAgent\bin\Release\PoliteWords.txt
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-huangpan\agents\PolitenessAgent\bin\Release\PolitenessAgent.exe
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-huangpan\agents\PolitenessAgent\bin\Release\PolitenessAgent.pdb
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-huangpan\agents\PolitenessAgent\bin\Release\SQLSpaces.dll
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-huangpan\agents\PolitenessAgent\obj\Release\PolitenessAgent.csprojResolveAssemblyReference.cache
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker\agents\PolitenessAgent\obj\Release\PolitenessAgent.exe
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker\agents\PolitenessAgent\obj\Release\PolitenessAgent.pdb
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker\agents\PolitenessAgent\bin\Release\Connection.txt
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker\agents\PolitenessAgent\bin\Release\PoliteWords.txt
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker\agents\PolitenessAgent\bin\Release\PolitenessAgent.exe
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker\agents\PolitenessAgent\bin\Release\PolitenessAgent.pdb
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker\agents\PolitenessAgent\bin\Release\SQLSpaces.dll
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker\agents\PolitenessAgent\obj\Release\PolitenessAgent.csprojResolveAssemblyReference.cache
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker_31_03\agents\PolitenessAgent\obj\Release\PolitenessAgent.exe
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker_31_03\agents\PolitenessAgent\obj\Release\PolitenessAgent.pdb
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker_31_03\agents\PolitenessAgent\bin\Release\Connection.txt
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker_31_03\agents\PolitenessAgent\bin\Release\PoliteWords.txt
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker_31_03\agents\PolitenessAgent\bin\Release\PolitenessAgent.exe
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker_31_03\agents\PolitenessAgent\bin\Release\PolitenessAgent.pdb
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker_31_03\agents\PolitenessAgent\bin\Release\SQLSpaces.dll
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker_31_03\agents\PolitenessAgent\obj\Release\PolitenessAgent.csprojResolveAssemblyReference.cache
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker_new\agents\PolitenessAgent\obj\Release\PolitenessAgent.exe
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker_new\agents\PolitenessAgent\obj\Release\PolitenessAgent.pdb
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker_new\agents\PolitenessAgent\bin\Release\Connection.txt
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker_new\agents\PolitenessAgent\bin\Release\PoliteWords.txt
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker_new\agents\PolitenessAgent\bin\Release\PolitenessAgent.exe
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker_new\agents\PolitenessAgent\bin\Release\PolitenessAgent.pdb
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker_new\agents\PolitenessAgent\bin\Release\SQLSpaces.dll
+C:\Users\zhang\Downloads\CuCoMaG - Game Client-troublemaker_new\agents\PolitenessAgent\obj\Release\PolitenessAgent.csprojResolveAssemblyReference.cache
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\trouble maker\CuCoMaG - Game Client-troublemaker\CuCoMaG - Game Client-troublemaker_final\agents\PolitenessAgent\obj\Release\PolitenessAgent.exe
+C:\Users\frndlthng\Dropbox\D\Masterprojekt\trouble maker\CuCoMaG - Game Client-troublemaker\CuCoMaG - Game Client-troublemaker_final\agents\PolitenessAgent\obj\Release\PolitenessAgent.pdb

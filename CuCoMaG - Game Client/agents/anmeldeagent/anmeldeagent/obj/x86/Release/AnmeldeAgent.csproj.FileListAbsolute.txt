@@ -1,0 +1,8 @@
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Code\Code 24.01.2012\AnmeldeAgent\AnmeldeAgent\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Julia\Desktop\Agents\AnmeldeAgent\AnmeldeAgent\bin\Release\Connection.txt
+C:\Users\Julia\Desktop\Agents\AnmeldeAgent\AnmeldeAgent\bin\Release\AnmeldeAgent.exe
+C:\Users\Julia\Desktop\Agents\AnmeldeAgent\AnmeldeAgent\bin\Release\AnmeldeAgent.pdb
+C:\Users\Julia\Desktop\Agents\AnmeldeAgent\AnmeldeAgent\bin\Release\SQLSpaces.dll
+C:\Users\Julia\Desktop\Agents\AnmeldeAgent\AnmeldeAgent\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Julia\Desktop\Agents\AnmeldeAgent\AnmeldeAgent\obj\x86\Release\AnmeldeAgent.exe
+C:\Users\Julia\Desktop\Agents\AnmeldeAgent\AnmeldeAgent\obj\x86\Release\AnmeldeAgent.pdb

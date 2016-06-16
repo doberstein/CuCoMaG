@@ -1,0 +1,8 @@
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Code\Code 24.01.2012\Schimpfagent\Schimpfagent\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Julia\Desktop\Agents\Schimpfagent\Schimpfagent\bin\Release\Connection.txt
+C:\Users\Julia\Desktop\Agents\Schimpfagent\Schimpfagent\bin\Release\Schimpfagent.exe
+C:\Users\Julia\Desktop\Agents\Schimpfagent\Schimpfagent\bin\Release\Schimpfagent.pdb
+C:\Users\Julia\Desktop\Agents\Schimpfagent\Schimpfagent\bin\Release\SQLSpaces.dll
+C:\Users\Julia\Desktop\Agents\Schimpfagent\Schimpfagent\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Julia\Desktop\Agents\Schimpfagent\Schimpfagent\obj\x86\Release\Schimpfagent.exe
+C:\Users\Julia\Desktop\Agents\Schimpfagent\Schimpfagent\obj\x86\Release\Schimpfagent.pdb

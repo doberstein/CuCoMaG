@@ -1,0 +1,30 @@
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\Agents.exe
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\Agents.pdb
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\obj\x86\Debug\Agents.exe
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\obj\x86\Debug\Agents.pdb
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\AggressionsAgent.exe
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\AIMLBotAgent.exe
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\AnmeldeAgent.exe
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\DirectFeedbackAgent.exe
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\FeedbackAgent.exe
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\IchDuAgent.exe
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\Schimpfagent.exe
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\SilenceAgent.exe
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\ThemenAgent.exe
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\VisualisierungsAgent.exe
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\SQLSpaces.dll
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\AIMLbot.dll
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\AggressionsAgent.pdb
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\AIMLBotAgent.pdb
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\AnmeldeAgent.pdb
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\DirectFeedbackAgent.pdb
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\FeedbackAgent.pdb
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\IchDuAgent.pdb
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\Schimpfagent.pdb
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\SilenceAgent.pdb
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\ThemenAgent.pdb
+C:\Users\schmidt\Master Semester 3\FP ColCoMa\Agents\Agents\bin\Debug\VisualisierungsAgent.pdb
+C:\Users\Tina\Desktop\ba arbeit\ColCoMa\Quellcode\Agenten\Agents\Agents\obj\x86\Debug\Agents.exe
+C:\Users\Tina\Desktop\ba arbeit\ColCoMa\Quellcode\Agenten\Agents\Agents\obj\x86\Debug\Agents.pdb
+C:\Users\Tina\Desktop\ba arbeit\ColCoMa\Quellcode\Agenten\Agents\Agents\obj\x86\Debug\ResolveAssemblyReference.cache

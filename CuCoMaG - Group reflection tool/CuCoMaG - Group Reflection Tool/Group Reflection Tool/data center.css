@@ -1,0 +1,401 @@
+﻿/* General */
+body {
+	font-family:Verdana, Geneva, Tahoma, sans-serif, Verdana;
+	font-size:medium;
+    background-image: url("Images/bg.gif");
+    background-repeat: repeat;
+
+}
+
+<!-- Headers -->
+.underlinedHeader{
+	font-size:medium;
+}
+
+th, h3, td {
+	text-align:left;
+
+} 
+
+.header { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h1 { 
+   position: absolute; 
+   top: 20px; 
+   color:white;
+   left: 2px; 
+   width: 100%; 
+}
+
+/* Content Positioning and Design -->*/
+table{
+margin:auto;
+}
+.ImagesTable {
+	width: 100%;
+	background-color: white;
+	background-image: url("Images/bg.gif");
+    background-repeat: repeat;
+	border-spacing: 50px 15px;
+	
+	}
+
+#CheckboxTable{
+	border-spacing: 25px 15px;
+	display:table !important;
+}
+
+#ParticipantsTable{
+margin:0px 0px;
+width: 100%;
+	border-spacing: 0px 15px;
+	border-bottom: 1px dotted #ddd;;
+}
+
+
+<!-- DIV container positioning and design -->
+div, nav, aside{
+		position: relative;
+}
+
+#ParticipantsContainer {
+	float:left;
+	border: 1px dotted grey;
+	width: 20%;
+	height:550px;
+	overflow:scroll;
+	border-color: gray;
+	
+}
+	#ImagesContainer {
+	float:left;
+	width:50%;
+	height: 150px;
+	
+	}
+
+#CheckboxContainer {
+	float:left;
+	width:50%;
+	height: 50px;
+	
+	}
+
+#NotepadContainer {
+		float:right;
+		background-image: url("Images/bg.gif");
+        background-repeat: repeat;
+	    border:1px grey dotted;
+		width: 28%;
+     	height: 550px;
+}
+
+#Notepad {
+	margin-left: 15px;
+	width:95%;
+	height:80%;
+	border-left-style:solid;
+	border-left: thin black solid;
+	
+}
+
+
+#ChartContainer {
+	position:static;
+	width:100%;
+}
+
+#ReplayContainer { /** change ***/
+display:none;
+margin:5px auto;
+width:50%;
+min-height: 400px;
+padding-left:2px;
+overflow:scroll;
+border: 1px dotted grey;
+}
+
+div#ReplayContainer
+{
+	margin-top: 5px;
+}
+
+/***** Style for replay text content and annotations -> has to be inline, cause of keeping the format in the pdf ****/
+
+/* styles messages on parent hover */
+
+/* deals the message on hover */
+#ReplayContainer > div:hover {
+   font-size: 22px;
+   background-color:#C8DFFA;
+}
+#ReplayContainer > div:hover button{
+	 display: block !important; /*important seems necessary because inline css has priority, but the button must not be shown in the pdf -> code will be copied! */
+}
+#ReplayContainer > div:hover  span{
+	 display: block !important; /*important seems necessary because inline css has priority, but the button must not be shown in the pdf -> code will be copied! */
+}
+/*Copy to notepad button styling*/
+.intoNotepad_Button{
+	background-color: #555555;
+	color: white;
+	font-size: 16px;
+	float:right;
+	border-radius: 12px;
+	    cursor: pointer;
+	    margin: 4px 0px;
+}
+
+.intoNotepad_Button:hover {
+    float:right;
+	background-color: white;
+    color: black;
+}
+
+/* convert to pdf button styling*/
+#pdf_Button{
+	background-color: #555555;
+	color: white;
+	font-size: 16px;
+	border-radius: 12px;
+	    cursor: pointer;
+	    margin: 4px 0px;
+}
+
+#pdf_Button:hover {
+    
+		background-color: white;
+    color: black;
+}
+
+
+
+
+/***** Tab Style ****/
+
+.tab_wrap{
+    border:1px solid #999;
+    max-width:30px;
+    width: 100%;
+}
+	.tabs {
+	list-style-type: none; 
+    width: auto;
+    margin: auto;
+    overflow: hidden;   
+    background: #F9F9F9;
+}
+.tabs ul {
+	padding: 0;
+    margin: 0;
+	list-style-type: none; 
+    overflow: hidden;
+         
+}
+.tabs li a {
+    list-style-type:none;
+    color: #444444;
+    display: block;
+    float: left;
+    font-weight:bold;   
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border:none;
+    border-left:1px solid #d9d9d9;
+    border-bottom:1px solid #d9d9d9;    
+}
+.tabs li a:hover {
+    color: #7d7d7d; 
+    background:#FFFFFF;
+}
+.tabs li:first-child a {
+    border-left:none;
+}
+.tabs li a.active {
+    background:#FFFFFF;
+    border:none;
+    border-left:1px solid #d9d9d9;
+    border-bottom:1px solid #FFFFFF;    
+}
+.tabs li:first-child a.active {
+    border:none;
+    border-bottom:1px solid #FFFFFF;    
+}
+.tabs li:last-child a.active {
+    border:none;
+    border-left:1px solid #d9d9d9;  
+    border-bottom:1px solid #FFFFFF;    
+}
+.tab_content {
+    background:#FFF;
+    padding:0;
+}
+.tab_content.active{
+    display:block;  
+}
+.tab_content ul {
+    margin:0px;
+    padding:0px;
+    list-style:none;    
+}
+.tab_content li {
+    display:block;
+    overflow: hidden;   
+    border-bottom:1px solid #d6dde0;    
+}
+.tab_content li:last-child {
+    border-bottom:none;
+}
+.tab_content li a {
+    display:block;
+    list-style:none;
+    overflow: hidden;   
+    padding:10px;           
+    text-decoration:none;
+    color:#444444;
+}
+.tab_content li a:hover {
+    color:#000000;
+    background:#F5F5F5; 
+}
+.tab_content li small {
+    color:#AAAAAA;
+    font-size:11px;
+    font-style:italic;
+}
+.tab_content li a:hover small {
+    color:#AAAAAA;
+}
+
+ul#tabs { list-style-type: none; margin: 30px 0 0 0; padding: 0 0 0.3em 0; }
+ul#tabs li { display: inline; }
+ul#tabs li a { color: #42454a; background-color: #dedbde; border: 1px solid #c9c3ba; border-bottom: none; padding: 0.3em; text-decoration: none; }
+ul#tabs li a:hover { background-color: #f1f0ee; }
+ul#tabs li a.selected { color: #000; background-color: #f1f0ee; font-weight: bold; padding: 0.7em 0.3em 0.38em 0.3em; }
+
+#notepad_content
+{
+align: center;
+}
+
+.link a{
+text-decoration:none; color:#CC9933; font-size:13px; text-shadow:2px 2px 5px #ccc; line-height:22px;
+} 
+.link a:hover{
+color:#000000;
+}
+h2{
+margin:20px 0 20px 0; text-decoration:underline;
+}
+.container {
+font-size:12px; 
+line-height:21px;
+color:#666666;
+height:300px;
+background-image: url("Images/bg.gif");
+background-repeat: repeat;
+
+}
+.container p{
+padding:5px 0 5px 0;
+}
+.container img {
+padding:5px; border:1px solid #ccc; background:#FFFFFF; 
+}
+.container img.left{
+float:left; margin:21px 20px 10px 0;
+}
+.container img.right{
+float:right; margin:21px 0 10px 20px;
+}
+.container img.left.nopad{
+margin-top:12px;
+}
+.container strong, .container a{
+color:#fac362; font-weight:bold;
+}
+.container ul {
+padding:0 0 15px 15px;
+}
+.container ul li {
+padding:0 0 10px 45px; line-height:20px; list-style:none;
+}
+
+
+/*tuts start here*/
+
+
+#tabs {
+	border:1px solid #ccc; 
+	height:28px; 
+	background:#eff5f9; 
+	padding-left: 40px;
+	padding-top:45px;
+	-moz-box-shadow: inset 0 -2px 2px #dadada;
+	-webkit-box-shadow:inset  0 -2px 2px #dadada;
+	box-shadow: inset 0 -2px 2px #dadada;
+	border-top-left-radius:4px;  
+	border-top-right-radius:4px;
+}
+#tabs li {
+	float:left; 
+	list-style:none; 
+	border-top:1px solid #ccc; 
+	border-left:1px solid #ccc; 
+	border-right:1px solid #ccc; 
+	margin-right:5px; 
+	border-top-left-radius:3px;  
+	border-top-right-radius:3px;
+	-moz-box-shadow: 0 -2px 2px #dadada;
+	-webkit-box-shadow:  0 -2px 2px #dadada;
+	box-shadow: 0 -2px 2px #dadada;
+}
+#tabs li a {
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:13px;
+	font-weight:bold; 
+	color:#000000; 
+	padding:7px 14px 6px 12px; 
+	display:block; 
+	background:#FFFFFF;  
+	border-top-left-radius:3px; 
+	border-top-right-radius:3px; 
+	text-decoration:none;
+	background: -moz-linear-gradient(top, #ebebeb, white 10%);  
+	background: -webkit-gradient(linear, 0 0, 0 10%, from(#ebebeb), to(white));  
+	border-top: 1px solid white; 
+	text-shadow:-1px -1px 0 #fff;
+	outline:none;
+}
+#tabs li a:hover, #tabs li a.inactive:hover {
+	border-top: 1px solid #dedede;
+	color:#000000;
+}
+#tabs li a.inactive{
+	padding-top:5px;
+	padding-bottom:5px;
+	color:#666666;
+	background: -moz-linear-gradient(top, #dedede, white 75%);  
+	background: -webkit-gradient(linear, 0 0, 0 75%, from(#dedede), to(white));  
+	border-top: 1px solid white; 
+}
+.container{ 
+	clear:both; 	 	 
+	padding:10px 0px; 
+	width:664px;
+	background-color:#fff; 
+	text-align:left; 
+	
+}
+
+.measure  /*change*/
+{
+		
+		
+}
+
+

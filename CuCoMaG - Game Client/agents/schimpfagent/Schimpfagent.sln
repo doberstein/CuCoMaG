@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schimpfagent", "Schimpfagent\Schimpfagent.csproj", "{EBB447D8-C043-41A5-B8DB-76F5B392CB20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBB447D8-C043-41A5-B8DB-76F5B392CB20}.Debug|x86.ActiveCfg = Debug|x86
+		{EBB447D8-C043-41A5-B8DB-76F5B392CB20}.Debug|x86.Build.0 = Debug|x86
+		{EBB447D8-C043-41A5-B8DB-76F5B392CB20}.Release|x86.ActiveCfg = Release|x86
+		{EBB447D8-C043-41A5-B8DB-76F5B392CB20}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

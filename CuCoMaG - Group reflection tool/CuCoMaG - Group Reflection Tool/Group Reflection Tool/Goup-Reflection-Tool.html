@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta content="de" http-equiv="Content-Language">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>CuCoMaG - Group Reflection Tool</title>
+<link href="data%20center.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-latest.js"></script>
+<script type="text/javascript" src="js/NicEdit.js"></script>
+<script type="text/javascript" src="js-cookie-master/src/js.cookie.js"></script>
+<script src="js/Group_Reflection.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-1.12.0.min.js"></script>
+<script src="js/highcharts.js"></script>
+<script src="js/exporting.js"></script> <!-- needs internet for exporting the chart. Available export formats are JPG, PNG, PDF and SVG vector image -->
+<script src="js/offline-exporting.js"></script> <!-- to enable offline export. Exports as PNG and SVG vector image -->
+
+</head>
+
+<body>
+<div class="header">
+<img src="Images/header.png" alt="banner" style="width:100%;height:150px;">
+<h1>CuCoMaG - Group Reflection Tool</h1>
+</div>
+
+<div class="Box" id="ParticipantsContainer" style="overflow-x:auto; overflow-y:auto;">
+<h3 class="UnderlinedHeader">Participants</h3>
+<table id="ParticipantsTable" sortable=true>
+<tr><td><th class="UnderlinedHeader">Name</th></td><td><th class="UnderlinedHeader">Score</th></td></tr>
+<!-- <td><input name="Participant_1" type="checkbox" />Participant 1</td> -->
+</table>
+</div>
+
+
+ <div id = ImagesContainer>
+<table class="ImagesTable">
+<tr><td><input type="file" id="fileOpener" accept=".xml" style="display:none"></td><td><img src="Images/open.png" height="100px" width="100px" title="Load player file" onclick="open_File_Dialog()"/></td><td><img src="Images/bar_chart.png" height="115px" width="115px" title="Show Bar chart" onclick="updateChart('barChart')"/></td><td><img src="Images/line_chart.png" height="100px" width="100px"title="Show Line chart" onclick="updateChart('lineChart')"/></td><td><img src="Images/replay_icon.jpg" height="100px" width="100px" title="Show a chat protocol" onclick="open_Replay(null, null);"/></td></tr>
+		
+	</table>
+	</div>
+
+
+<!-- Annotation Area -->
+<aside class="Box" id="NotepadContainer">
+<div class="NoteTabs">
+	<h3> Make a note </h3>
+	
+    <ul id="tabs"> 
+	<!-- <li><a href="#tab1">Home</a></li> -->
+	</ul>
+	<!-- <div class="container" id="tab + player name" name= "tab + id" >textArea</div> -->
+            
+</div>
+ <br /><br />
+	
+<button id ="pdf_Button" type = "button" onclick="convertToPDF()">Generate PDF</button>
+</aside>
+
+<div class="Box" id="CheckboxContainer">
+<table id="CheckboxTable">
+<th class="UnderlinedHeader">Soft Skills</th> <th class="UnderlinedHeader">Answering Behaviour</th>
+</tr>
+<td> <input name="Politeness" class="measure" type="checkbox" onclick="updateChart('')"/>Politeness</td><td><input name="SilenceTrigger" class="measure" type="checkbox" onclick="updateChart('')"/>Moments of Silence</td>
+<tr>
+<td><input name="Rudeness" class="measure" type="checkbox" onclick="updateChart('')"/>Rudeness</td> <td><input name="Answerquality" class="measure" type="checkbox"onclick="updateChart('')" />Answer Quality</td> 
+</tr>
+<tr>
+<td><input name="Aggression" class="measure" type="checkbox"onclick="updateChart('')" />Aggression</td><td><input name="NoGoSentence" class="measure" type="checkbox"onclick="updateChart('')" />No-Go-Answers</td>
+</tr>
+</table>
+</div>
+
+<div class="Box" id="ChartContainer"> 
+
+</div>
+
+<div class="Box" id="ReplayContainer" style = "max-height:300px; display: /'none/'">
+<p>To show a chat history, please load a file and select a player on the left. </p>
+</div>
+
+<script src="js/Group_Reflection.js"></script>
+
+<script src="js/jspdf.js"></script>
+<script src="js/jspdf.plugin.from_html.js"></script>    
+<script src="js/jspdf.plugin.split_text_to_size.js"></script>
+<script src="js/jspdf.plugin.standard_fonts_metrics.js"></script>
+<script src="js/jspdf.plugin.autoprint.js"></script>
+<script src="js/jspdf.plugin.html2canvas.js"></script>
+
+</body>
+
+</html>

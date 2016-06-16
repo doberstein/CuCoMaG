@@ -11,6 +11,8 @@ Contains:
     - technical documentation (“CuCoMaG - technical documentation.pdf”)
     
 	- submitted paper (“CuCoMaG - DeLFI paper.pdf”)
+	
+	- submitted short paper (“CuCoMaG - DeLFI short paper.pdf”)
 		
 	- final presentation (“CuCoMaG - final presentation.pdf”)
 
